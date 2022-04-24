@@ -1,0 +1,64 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: xgboost
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.12
+    start_time: 1643801730
+    t:
+      1:
+      - 5
+      - 6
+      2:
+      - 5
+      - 6
+      3:
+      - 2
+      4: 3.7.12
+      5: 0.12.10
+      8:
+      - 1
+      - 5
+alpha:
+  desc: null
+  value: 1
+boosting_type:
+  desc: null
+  value: dart
+colsample_bytree:
+  desc: null
+  value: 0.7
+eta:
+  desc: null
+  value: 0.04
+eval_metric:
+  desc: null
+  value: mlogloss
+gamma:
+  desc: null
+  value: 1
+max_depth:
+  desc: null
+  value: 2
+min_child_weight:
+  desc: null
+  value: 20
+num_class:
+  desc: null
+  value: 9
+objective:
+  desc: null
+  value: multi:softmax
+subsample:
+  desc: null
+  value: 0.8
+tree_method:
+  desc: null
+  value: hist
+verbose:
+  desc: null
+  value: 2

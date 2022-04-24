@@ -1,0 +1,138 @@
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from /work/wandb/settings
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:10:49,409 INFO    MainThread:72 [wandb_init.py:_log_setup():386] Logging user logs to /work/wandb/run-20220202_111049-3tp6u42s/logs/debug.log
+2022-02-02 11:10:49,410 INFO    MainThread:72 [wandb_init.py:_log_setup():387] Logging internal logs to /work/wandb/run-20220202_111049-3tp6u42s/logs/debug-internal.log
+2022-02-02 11:10:49,410 INFO    MainThread:72 [wandb_init.py:init():420] calling init triggers
+2022-02-02 11:10:49,410 INFO    MainThread:72 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {}
+2022-02-02 11:10:49,410 INFO    MainThread:72 [wandb_init.py:init():471] starting backend
+2022-02-02 11:10:49,410 INFO    MainThread:72 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-02 11:10:49,412 INFO    MainThread:72 [backend.py:ensure_launched():219] starting backend process...
+2022-02-02 11:10:49,421 INFO    MainThread:72 [backend.py:ensure_launched():225] started backend process with pid: 1013
+2022-02-02 11:10:49,427 INFO    MainThread:72 [wandb_init.py:init():480] backend started and connected
+2022-02-02 11:10:49,436 INFO    MainThread:72 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-02 11:10:49,436 INFO    MainThread:72 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-02 11:10:49,436 INFO    MainThread:72 [wandb_init.py:init():550] updated telemetry
+2022-02-02 11:10:49,443 INFO    MainThread:72 [wandb_init.py:init():581] communicating current version
+2022-02-02 11:10:52,121 INFO    MainThread:72 [wandb_init.py:init():586] got version response 
+2022-02-02 11:10:52,122 INFO    MainThread:72 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-02 11:10:52,264 INFO    MainThread:72 [wandb_init.py:init():624] starting run threads in backend
+2022-02-02 11:10:57,277 INFO    MainThread:72 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-02 11:10:57,279 INFO    MainThread:72 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-02 11:10:57,279 INFO    MainThread:72 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-02 11:10:57,280 INFO    MainThread:72 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-02 11:10:57,281 INFO    MainThread:72 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-02 11:10:57,282 INFO    MainThread:72 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 2, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:11:09,101 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from /work/wandb/settings
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_init.py:_log_setup():386] Logging user logs to /work/wandb/run-20220202_111109-wl9xymtv/logs/debug.log
+2022-02-02 11:11:09,102 INFO    MainThread:72 [wandb_init.py:_log_setup():387] Logging internal logs to /work/wandb/run-20220202_111109-wl9xymtv/logs/debug-internal.log
+2022-02-02 11:11:09,103 INFO    MainThread:72 [wandb_init.py:init():420] calling init triggers
+2022-02-02 11:11:09,103 INFO    MainThread:72 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {}
+2022-02-02 11:11:09,103 INFO    MainThread:72 [wandb_init.py:init():442] re-initializing run, found existing run on stack: 3tp6u42s
+2022-02-02 11:11:09,106 INFO    MainThread:72 [wandb_run.py:finish():1468] finishing run kero0000/my-test-project/3tp6u42s
+2022-02-02 11:11:09,106 INFO    MainThread:72 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-02 11:11:09,107 INFO    MainThread:72 [wandb_run.py:_restore():1769] restore
+2022-02-02 11:11:09,821 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 11:11:09,993 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 11:11:10,352 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 6976
+}
+
+2022-02-02 11:11:10,458 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:10,560 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:10,662 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:10,764 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:10,866 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:10,968 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:11,184 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+
+2022-02-02 11:11:11,414 INFO    MainThread:72 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7819
+  total_bytes: 7819
+}
+local_info {
+}
+
+2022-02-02 11:11:12,851 INFO    MainThread:72 [wandb_run.py:_append_files():2194] logging synced files

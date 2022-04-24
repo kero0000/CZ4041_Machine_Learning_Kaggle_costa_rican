@@ -1,0 +1,4257 @@
+[12:12:41] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12787
+[1]	eval-mlogloss:2.06556
+[2]	eval-mlogloss:1.99838
+[3]	eval-mlogloss:1.94620
+[4]	eval-mlogloss:1.88237
+[5]	eval-mlogloss:1.83471
+[6]	eval-mlogloss:1.79360
+[7]	eval-mlogloss:1.75080
+[8]	eval-mlogloss:1.71451
+[9]	eval-mlogloss:1.68188
+[10]	eval-mlogloss:1.65322
+[11]	eval-mlogloss:1.61684
+[12]	eval-mlogloss:1.58135
+[13]	eval-mlogloss:1.55087
+[14]	eval-mlogloss:1.52251
+[15]	eval-mlogloss:1.49739
+[16]	eval-mlogloss:1.47080
+[17]	eval-mlogloss:1.44225
+[18]	eval-mlogloss:1.41423
+[19]	eval-mlogloss:1.38779
+[20]	eval-mlogloss:1.36793
+[21]	eval-mlogloss:1.34721
+[22]	eval-mlogloss:1.32715
+[23]	eval-mlogloss:1.30500
+[24]	eval-mlogloss:1.28749
+[25]	eval-mlogloss:1.26731
+[26]	eval-mlogloss:1.25187
+[27]	eval-mlogloss:1.23341
+[28]	eval-mlogloss:1.22052
+[29]	eval-mlogloss:1.20563
+[30]	eval-mlogloss:1.18989
+[31]	eval-mlogloss:1.17511
+[32]	eval-mlogloss:1.16272
+[33]	eval-mlogloss:1.14992
+[34]	eval-mlogloss:1.13793
+[35]	eval-mlogloss:1.12437
+[36]	eval-mlogloss:1.11420
+[37]	eval-mlogloss:1.10199
+[38]	eval-mlogloss:1.09123
+[39]	eval-mlogloss:1.08083
+[40]	eval-mlogloss:1.07217
+[41]	eval-mlogloss:1.06291
+[42]	eval-mlogloss:1.05305
+[43]	eval-mlogloss:1.04351
+[44]	eval-mlogloss:1.03350
+[45]	eval-mlogloss:1.02504
+[46]	eval-mlogloss:1.01683
+[47]	eval-mlogloss:1.01077
+[48]	eval-mlogloss:1.00288
+[49]	eval-mlogloss:0.99557
+Accuracy score is 0.6846186085498742
+model saved to XGBoost_data/xgb_model_0.68.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.34      0.49      1142
+           1       0.75      0.68      0.71      1181
+           2       1.00      0.70      0.82      1215
+           3       0.51      0.99      0.67      1234
+    accuracy                           0.68      4772
+   macro avg       0.78      0.68      0.68      4772
+weighted avg       0.77      0.68      0.68      4772
+[12:12:45] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12915
+[1]	eval-mlogloss:2.06705
+[2]	eval-mlogloss:2.00064
+[3]	eval-mlogloss:1.94836
+[4]	eval-mlogloss:1.88488
+[5]	eval-mlogloss:1.83807
+[6]	eval-mlogloss:1.79745
+[7]	eval-mlogloss:1.75521
+[8]	eval-mlogloss:1.71940
+[9]	eval-mlogloss:1.68675
+[10]	eval-mlogloss:1.65840
+[11]	eval-mlogloss:1.62259
+[12]	eval-mlogloss:1.58692
+[13]	eval-mlogloss:1.55646
+[14]	eval-mlogloss:1.52857
+[15]	eval-mlogloss:1.50352
+[16]	eval-mlogloss:1.47698
+[17]	eval-mlogloss:1.44845
+[18]	eval-mlogloss:1.42050
+[19]	eval-mlogloss:1.39411
+[20]	eval-mlogloss:1.37417
+[21]	eval-mlogloss:1.35347
+[22]	eval-mlogloss:1.33350
+[23]	eval-mlogloss:1.31143
+[24]	eval-mlogloss:1.29402
+[25]	eval-mlogloss:1.27385
+[26]	eval-mlogloss:1.25859
+[27]	eval-mlogloss:1.24019
+[28]	eval-mlogloss:1.22722
+[29]	eval-mlogloss:1.21240
+[30]	eval-mlogloss:1.19670
+[31]	eval-mlogloss:1.18171
+[32]	eval-mlogloss:1.16950
+[33]	eval-mlogloss:1.15665
+[34]	eval-mlogloss:1.14469
+[35]	eval-mlogloss:1.13112
+[36]	eval-mlogloss:1.12085
+[37]	eval-mlogloss:1.10856
+[38]	eval-mlogloss:1.09785
+[39]	eval-mlogloss:1.08749
+[40]	eval-mlogloss:1.07888
+[41]	eval-mlogloss:1.06962
+[42]	eval-mlogloss:1.05979
+[43]	eval-mlogloss:1.05026
+[44]	eval-mlogloss:1.04031
+[45]	eval-mlogloss:1.03184
+[46]	eval-mlogloss:1.02363
+[47]	eval-mlogloss:1.01760
+[48]	eval-mlogloss:1.00967
+[49]	eval-mlogloss:1.00252
+Accuracy score is 0.6677845315447495
+model saved to XGBoost_data/xgb_model_0.66.pkl
+              precision    recall  f1-score   support
+           0       0.82      0.33      0.47      1224
+           1       0.77      0.66      0.71      1248
+           2       1.00      0.72      0.83      1153
+           3       0.48      0.99      0.64      1146
+    accuracy                           0.67      4771
+   macro avg       0.77      0.67      0.66      4771
+weighted avg       0.77      0.67      0.66      4771
+[12:12:49] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12836
+[1]	eval-mlogloss:2.06543
+[2]	eval-mlogloss:1.99790
+[3]	eval-mlogloss:1.94477
+[4]	eval-mlogloss:1.88038
+[5]	eval-mlogloss:1.83274
+[6]	eval-mlogloss:1.79144
+[7]	eval-mlogloss:1.74835
+[8]	eval-mlogloss:1.71226
+[9]	eval-mlogloss:1.67925
+[10]	eval-mlogloss:1.65036
+[11]	eval-mlogloss:1.61338
+[12]	eval-mlogloss:1.57731
+[13]	eval-mlogloss:1.54630
+[14]	eval-mlogloss:1.51780
+[15]	eval-mlogloss:1.49239
+[16]	eval-mlogloss:1.46531
+[17]	eval-mlogloss:1.43630
+[18]	eval-mlogloss:1.40780
+[19]	eval-mlogloss:1.38096
+[20]	eval-mlogloss:1.36068
+[21]	eval-mlogloss:1.33954
+[22]	eval-mlogloss:1.31919
+[23]	eval-mlogloss:1.29657
+[24]	eval-mlogloss:1.27880
+[25]	eval-mlogloss:1.25820
+[26]	eval-mlogloss:1.24255
+[27]	eval-mlogloss:1.22367
+[28]	eval-mlogloss:1.21036
+[29]	eval-mlogloss:1.19522
+[30]	eval-mlogloss:1.17919
+[31]	eval-mlogloss:1.16381
+[32]	eval-mlogloss:1.15122
+[33]	eval-mlogloss:1.13823
+[34]	eval-mlogloss:1.12596
+[35]	eval-mlogloss:1.11199
+[36]	eval-mlogloss:1.10152
+[37]	eval-mlogloss:1.08890
+[38]	eval-mlogloss:1.07793
+[39]	eval-mlogloss:1.06729
+[40]	eval-mlogloss:1.05845
+[41]	eval-mlogloss:1.04903
+[42]	eval-mlogloss:1.03896
+[43]	eval-mlogloss:1.02922
+[44]	eval-mlogloss:1.01891
+[45]	eval-mlogloss:1.01021
+[46]	eval-mlogloss:1.00189
+[47]	eval-mlogloss:0.99583
+[48]	eval-mlogloss:0.98781
+[49]	eval-mlogloss:0.98043
+Accuracy score is 0.6858101027038357
+model saved to XGBoost_data/xgb_model_0.68.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.32      0.47      1257
+           1       0.73      0.73      0.73      1151
+           2       1.00      0.72      0.84      1163
+           3       0.51      0.99      0.68      1200
+    accuracy                           0.69      4771
+   macro avg       0.78      0.69      0.68      4771
+weighted avg       0.78      0.69      0.67      4771
+[12:12:52] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12757
+[1]	eval-mlogloss:2.06418
+[2]	eval-mlogloss:1.99541
+[3]	eval-mlogloss:1.94205
+[4]	eval-mlogloss:1.87684
+[5]	eval-mlogloss:1.82885
+[6]	eval-mlogloss:1.78728
+[7]	eval-mlogloss:1.74405
+[8]	eval-mlogloss:1.70726
+[9]	eval-mlogloss:1.67396
+[10]	eval-mlogloss:1.64515
+[11]	eval-mlogloss:1.60779
+[12]	eval-mlogloss:1.57110
+[13]	eval-mlogloss:1.54011
+[14]	eval-mlogloss:1.51138
+[15]	eval-mlogloss:1.48554
+[16]	eval-mlogloss:1.45834
+[17]	eval-mlogloss:1.42888
+[18]	eval-mlogloss:1.40000
+[19]	eval-mlogloss:1.37279
+[20]	eval-mlogloss:1.35239
+[21]	eval-mlogloss:1.33122
+[22]	eval-mlogloss:1.31076
+[23]	eval-mlogloss:1.28794
+[24]	eval-mlogloss:1.27003
+[25]	eval-mlogloss:1.24918
+[26]	eval-mlogloss:1.23334
+[27]	eval-mlogloss:1.21435
+[28]	eval-mlogloss:1.20100
+[29]	eval-mlogloss:1.18571
+[30]	eval-mlogloss:1.16949
+[31]	eval-mlogloss:1.15427
+[32]	eval-mlogloss:1.14164
+[33]	eval-mlogloss:1.12843
+[34]	eval-mlogloss:1.11616
+[35]	eval-mlogloss:1.10210
+[36]	eval-mlogloss:1.09161
+[37]	eval-mlogloss:1.07882
+[38]	eval-mlogloss:1.06781
+[39]	eval-mlogloss:1.05707
+[40]	eval-mlogloss:1.04825
+[41]	eval-mlogloss:1.03870
+[42]	eval-mlogloss:1.02850
+[43]	eval-mlogloss:1.01871
+[44]	eval-mlogloss:1.00829
+[45]	eval-mlogloss:0.99949
+[46]	eval-mlogloss:0.99101
+[47]	eval-mlogloss:0.98490
+[48]	eval-mlogloss:0.97682
+[49]	eval-mlogloss:0.96949
+Accuracy score is 0.6935652902955355
+model saved to XGBoost_data/xgb_model_0.68.pkl
+              precision    recall  f1-score   support
+           0       0.90      0.32      0.47      1188
+           1       0.75      0.73      0.74      1209
+           2       1.00      0.74      0.85      1187
+           3       0.51      0.99      0.67      1187
+    accuracy                           0.69      4771
+   macro avg       0.79      0.69      0.68      4771
+weighted avg       0.79      0.69      0.68      4771
+[12:12:56] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12869
+[1]	eval-mlogloss:2.06609
+[2]	eval-mlogloss:1.99914
+[3]	eval-mlogloss:1.94628
+[4]	eval-mlogloss:1.88218
+[5]	eval-mlogloss:1.83472
+[6]	eval-mlogloss:1.79367
+[7]	eval-mlogloss:1.75090
+[8]	eval-mlogloss:1.71478
+[9]	eval-mlogloss:1.68203
+[10]	eval-mlogloss:1.65324
+[11]	eval-mlogloss:1.61695
+[12]	eval-mlogloss:1.58117
+[13]	eval-mlogloss:1.55042
+[14]	eval-mlogloss:1.52207
+[15]	eval-mlogloss:1.49693
+[16]	eval-mlogloss:1.47018
+[17]	eval-mlogloss:1.44148
+[18]	eval-mlogloss:1.41319
+[19]	eval-mlogloss:1.38646
+[20]	eval-mlogloss:1.36634
+[21]	eval-mlogloss:1.34540
+[22]	eval-mlogloss:1.32523
+[23]	eval-mlogloss:1.30286
+[24]	eval-mlogloss:1.28522
+[25]	eval-mlogloss:1.26482
+[26]	eval-mlogloss:1.24929
+[27]	eval-mlogloss:1.23066
+[28]	eval-mlogloss:1.21751
+[29]	eval-mlogloss:1.20243
+[30]	eval-mlogloss:1.18660
+[31]	eval-mlogloss:1.17136
+[32]	eval-mlogloss:1.15894
+[33]	eval-mlogloss:1.14574
+[34]	eval-mlogloss:1.13364
+[35]	eval-mlogloss:1.11994
+[36]	eval-mlogloss:1.10969
+[37]	eval-mlogloss:1.09724
+[38]	eval-mlogloss:1.08641
+[39]	eval-mlogloss:1.07586
+[40]	eval-mlogloss:1.06712
+[41]	eval-mlogloss:1.05775
+[42]	eval-mlogloss:1.04778
+[43]	eval-mlogloss:1.03806
+[44]	eval-mlogloss:1.02795
+[45]	eval-mlogloss:1.01937
+[46]	eval-mlogloss:1.01105
+[47]	eval-mlogloss:1.00503
+[48]	eval-mlogloss:0.99705
+[49]	eval-mlogloss:0.98988
+Accuracy score is 0.6818277090756655
+model saved to XGBoost_data/xgb_model_0.67.pkl
+              precision    recall  f1-score   support
+           0       0.82      0.33      0.47      1185
+           1       0.76      0.67      0.71      1207
+           2       1.00      0.73      0.84      1150
+           3       0.51      0.99      0.67      1229
+    accuracy                           0.68      4771
+   macro avg       0.77      0.68      0.67      4771
+weighted avg       0.77      0.68      0.67      4771
+avg macro_F1_metric: 0.674 2
+[12:13:00] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11963
+[1]	eval-mlogloss:2.05009
+[2]	eval-mlogloss:1.98073
+[3]	eval-mlogloss:1.92269
+[4]	eval-mlogloss:1.85436
+[5]	eval-mlogloss:1.80265
+[6]	eval-mlogloss:1.76059
+[7]	eval-mlogloss:1.71488
+[8]	eval-mlogloss:1.67800
+[9]	eval-mlogloss:1.64482
+[10]	eval-mlogloss:1.61402
+[11]	eval-mlogloss:1.57719
+[12]	eval-mlogloss:1.54102
+[13]	eval-mlogloss:1.50862
+[14]	eval-mlogloss:1.47820
+[15]	eval-mlogloss:1.45261
+[16]	eval-mlogloss:1.42448
+[17]	eval-mlogloss:1.39561
+[18]	eval-mlogloss:1.36720
+[19]	eval-mlogloss:1.34036
+[20]	eval-mlogloss:1.32012
+[21]	eval-mlogloss:1.29814
+[22]	eval-mlogloss:1.27680
+[23]	eval-mlogloss:1.25454
+[24]	eval-mlogloss:1.23693
+[25]	eval-mlogloss:1.21666
+[26]	eval-mlogloss:1.20131
+[27]	eval-mlogloss:1.18246
+[28]	eval-mlogloss:1.16905
+[29]	eval-mlogloss:1.15294
+[30]	eval-mlogloss:1.13592
+[31]	eval-mlogloss:1.12087
+[32]	eval-mlogloss:1.10891
+[33]	eval-mlogloss:1.09590
+[34]	eval-mlogloss:1.08286
+[35]	eval-mlogloss:1.06910
+[36]	eval-mlogloss:1.05879
+[37]	eval-mlogloss:1.04619
+[38]	eval-mlogloss:1.03468
+[39]	eval-mlogloss:1.02416
+[40]	eval-mlogloss:1.01474
+[41]	eval-mlogloss:1.00465
+[42]	eval-mlogloss:0.99415
+[43]	eval-mlogloss:0.98443
+[44]	eval-mlogloss:0.97350
+[45]	eval-mlogloss:0.96430
+[46]	eval-mlogloss:0.95536
+[47]	eval-mlogloss:0.94931
+[48]	eval-mlogloss:0.94123
+[49]	eval-mlogloss:0.93346
+Accuracy score is 0.7233864207879296
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.50      0.64      1142
+           1       0.90      0.69      0.78      1181
+           2       1.00      0.70      0.82      1215
+           3       0.51      0.99      0.67      1234
+    accuracy                           0.72      4772
+   macro avg       0.83      0.72      0.73      4772
+weighted avg       0.82      0.72      0.73      4772
+[12:13:05] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12053
+[1]	eval-mlogloss:2.05103
+[2]	eval-mlogloss:1.98236
+[3]	eval-mlogloss:1.92457
+[4]	eval-mlogloss:1.85672
+[5]	eval-mlogloss:1.80591
+[6]	eval-mlogloss:1.76419
+[7]	eval-mlogloss:1.71909
+[8]	eval-mlogloss:1.68267
+[9]	eval-mlogloss:1.64958
+[10]	eval-mlogloss:1.61906
+[11]	eval-mlogloss:1.58252
+[12]	eval-mlogloss:1.54624
+[13]	eval-mlogloss:1.51388
+[14]	eval-mlogloss:1.48400
+[15]	eval-mlogloss:1.45874
+[16]	eval-mlogloss:1.43062
+[17]	eval-mlogloss:1.40176
+[18]	eval-mlogloss:1.37350
+[19]	eval-mlogloss:1.34679
+[20]	eval-mlogloss:1.32664
+[21]	eval-mlogloss:1.30469
+[22]	eval-mlogloss:1.28349
+[23]	eval-mlogloss:1.26128
+[24]	eval-mlogloss:1.24375
+[25]	eval-mlogloss:1.22346
+[26]	eval-mlogloss:1.20827
+[27]	eval-mlogloss:1.18954
+[28]	eval-mlogloss:1.17632
+[29]	eval-mlogloss:1.16030
+[30]	eval-mlogloss:1.14332
+[31]	eval-mlogloss:1.12834
+[32]	eval-mlogloss:1.11621
+[33]	eval-mlogloss:1.10310
+[34]	eval-mlogloss:1.09015
+[35]	eval-mlogloss:1.07641
+[36]	eval-mlogloss:1.06616
+[37]	eval-mlogloss:1.05366
+[38]	eval-mlogloss:1.04220
+[39]	eval-mlogloss:1.03182
+[40]	eval-mlogloss:1.02246
+[41]	eval-mlogloss:1.01240
+[42]	eval-mlogloss:1.00200
+[43]	eval-mlogloss:0.99226
+[44]	eval-mlogloss:0.98140
+[45]	eval-mlogloss:0.97220
+[46]	eval-mlogloss:0.96329
+[47]	eval-mlogloss:0.95733
+[48]	eval-mlogloss:0.94916
+[49]	eval-mlogloss:0.94136
+Accuracy score is 0.7086564661496542
+model saved to XGBoost_data/xgb_model_0.72.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.48      0.62      1224
+           1       0.93      0.67      0.78      1248
+           2       1.00      0.72      0.83      1153
+           3       0.48      0.99      0.64      1146
+    accuracy                           0.71      4771
+   macro avg       0.82      0.71      0.72      4771
+weighted avg       0.83      0.71      0.72      4771
+[12:13:10] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11890
+[1]	eval-mlogloss:2.04806
+[2]	eval-mlogloss:1.97820
+[3]	eval-mlogloss:1.91907
+[4]	eval-mlogloss:1.84985
+[5]	eval-mlogloss:1.79777
+[6]	eval-mlogloss:1.75521
+[7]	eval-mlogloss:1.70892
+[8]	eval-mlogloss:1.67188
+[9]	eval-mlogloss:1.63790
+[10]	eval-mlogloss:1.60653
+[11]	eval-mlogloss:1.56920
+[12]	eval-mlogloss:1.53231
+[13]	eval-mlogloss:1.49931
+[14]	eval-mlogloss:1.46866
+[15]	eval-mlogloss:1.44277
+[16]	eval-mlogloss:1.41404
+[17]	eval-mlogloss:1.38468
+[18]	eval-mlogloss:1.35573
+[19]	eval-mlogloss:1.32845
+[20]	eval-mlogloss:1.30789
+[21]	eval-mlogloss:1.28543
+[22]	eval-mlogloss:1.26372
+[23]	eval-mlogloss:1.24094
+[24]	eval-mlogloss:1.22298
+[25]	eval-mlogloss:1.20221
+[26]	eval-mlogloss:1.18668
+[27]	eval-mlogloss:1.16744
+[28]	eval-mlogloss:1.15386
+[29]	eval-mlogloss:1.13748
+[30]	eval-mlogloss:1.12012
+[31]	eval-mlogloss:1.10485
+[32]	eval-mlogloss:1.09248
+[33]	eval-mlogloss:1.07922
+[34]	eval-mlogloss:1.06600
+[35]	eval-mlogloss:1.05180
+[36]	eval-mlogloss:1.04133
+[37]	eval-mlogloss:1.02843
+[38]	eval-mlogloss:1.01672
+[39]	eval-mlogloss:1.00596
+[40]	eval-mlogloss:0.99640
+[41]	eval-mlogloss:0.98614
+[42]	eval-mlogloss:0.97547
+[43]	eval-mlogloss:0.96550
+[44]	eval-mlogloss:0.95433
+[45]	eval-mlogloss:0.94496
+[46]	eval-mlogloss:0.93583
+[47]	eval-mlogloss:0.92983
+[48]	eval-mlogloss:0.92146
+[49]	eval-mlogloss:0.91357
+Accuracy score is 0.7245860406623349
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.49      0.63      1257
+           1       0.89      0.71      0.79      1151
+           2       1.00      0.72      0.84      1163
+           3       0.51      0.99      0.67      1200
+    accuracy                           0.72      4771
+   macro avg       0.82      0.73      0.73      4771
+weighted avg       0.82      0.72      0.73      4771
+[12:13:15] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11904
+[1]	eval-mlogloss:2.04756
+[2]	eval-mlogloss:1.97576
+[3]	eval-mlogloss:1.91628
+[4]	eval-mlogloss:1.84635
+[5]	eval-mlogloss:1.79427
+[6]	eval-mlogloss:1.75151
+[7]	eval-mlogloss:1.70539
+[8]	eval-mlogloss:1.66793
+[9]	eval-mlogloss:1.63373
+[10]	eval-mlogloss:1.60283
+[11]	eval-mlogloss:1.56508
+[12]	eval-mlogloss:1.52756
+[13]	eval-mlogloss:1.49450
+[14]	eval-mlogloss:1.46378
+[15]	eval-mlogloss:1.43773
+[16]	eval-mlogloss:1.40907
+[17]	eval-mlogloss:1.37928
+[18]	eval-mlogloss:1.34996
+[19]	eval-mlogloss:1.32235
+[20]	eval-mlogloss:1.30163
+[21]	eval-mlogloss:1.27921
+[22]	eval-mlogloss:1.25762
+[23]	eval-mlogloss:1.23469
+[24]	eval-mlogloss:1.21654
+[25]	eval-mlogloss:1.19558
+[26]	eval-mlogloss:1.17996
+[27]	eval-mlogloss:1.16064
+[28]	eval-mlogloss:1.14701
+[29]	eval-mlogloss:1.13083
+[30]	eval-mlogloss:1.11343
+[31]	eval-mlogloss:1.09788
+[32]	eval-mlogloss:1.08557
+[33]	eval-mlogloss:1.07223
+[34]	eval-mlogloss:1.05908
+[35]	eval-mlogloss:1.04479
+[36]	eval-mlogloss:1.03428
+[37]	eval-mlogloss:1.02128
+[38]	eval-mlogloss:1.00956
+[39]	eval-mlogloss:0.99879
+[40]	eval-mlogloss:0.98934
+[41]	eval-mlogloss:0.97909
+[42]	eval-mlogloss:0.96841
+[43]	eval-mlogloss:0.95845
+[44]	eval-mlogloss:0.94731
+[45]	eval-mlogloss:0.93794
+[46]	eval-mlogloss:0.92880
+[47]	eval-mlogloss:0.92275
+[48]	eval-mlogloss:0.91443
+[49]	eval-mlogloss:0.90655
+Accuracy score is 0.7285684342905051
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.90      0.48      0.62      1188
+           1       0.90      0.71      0.79      1209
+           2       1.00      0.74      0.85      1187
+           3       0.51      0.99      0.67      1187
+    accuracy                           0.73      4771
+   macro avg       0.83      0.73      0.73      4771
+weighted avg       0.83      0.73      0.73      4771
+[12:13:19] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.12013
+[1]	eval-mlogloss:2.05010
+[2]	eval-mlogloss:1.98079
+[3]	eval-mlogloss:1.92218
+[4]	eval-mlogloss:1.85365
+[5]	eval-mlogloss:1.80214
+[6]	eval-mlogloss:1.75990
+[7]	eval-mlogloss:1.71420
+[8]	eval-mlogloss:1.67725
+[9]	eval-mlogloss:1.64383
+[10]	eval-mlogloss:1.61286
+[11]	eval-mlogloss:1.57586
+[12]	eval-mlogloss:1.53930
+[13]	eval-mlogloss:1.50661
+[14]	eval-mlogloss:1.47627
+[15]	eval-mlogloss:1.45054
+[16]	eval-mlogloss:1.42215
+[17]	eval-mlogloss:1.39308
+[18]	eval-mlogloss:1.36430
+[19]	eval-mlogloss:1.33713
+[20]	eval-mlogloss:1.31673
+[21]	eval-mlogloss:1.29448
+[22]	eval-mlogloss:1.27301
+[23]	eval-mlogloss:1.25048
+[24]	eval-mlogloss:1.23265
+[25]	eval-mlogloss:1.21207
+[26]	eval-mlogloss:1.19664
+[27]	eval-mlogloss:1.17758
+[28]	eval-mlogloss:1.16410
+[29]	eval-mlogloss:1.14783
+[30]	eval-mlogloss:1.13066
+[31]	eval-mlogloss:1.11541
+[32]	eval-mlogloss:1.10343
+[33]	eval-mlogloss:1.09026
+[34]	eval-mlogloss:1.07721
+[35]	eval-mlogloss:1.06322
+[36]	eval-mlogloss:1.05294
+[37]	eval-mlogloss:1.04021
+[38]	eval-mlogloss:1.02863
+[39]	eval-mlogloss:1.01799
+[40]	eval-mlogloss:1.00854
+[41]	eval-mlogloss:0.99832
+[42]	eval-mlogloss:0.98770
+[43]	eval-mlogloss:0.97781
+[44]	eval-mlogloss:0.96676
+[45]	eval-mlogloss:0.95739
+[46]	eval-mlogloss:0.94826
+[47]	eval-mlogloss:0.94221
+[48]	eval-mlogloss:0.93401
+[49]	eval-mlogloss:0.92611
+Accuracy score is 0.7233284426744917
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.90      0.48      0.63      1185
+           1       0.91      0.69      0.78      1207
+           2       1.00      0.73      0.84      1150
+           3       0.51      0.99      0.67      1229
+    accuracy                           0.72      4771
+   macro avg       0.83      0.72      0.73      4771
+weighted avg       0.82      0.72      0.73      4771
+avg macro_F1_metric: 0.728 3
+[12:13:23] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11822
+[1]	eval-mlogloss:2.04734
+[2]	eval-mlogloss:1.97474
+[3]	eval-mlogloss:1.91409
+[4]	eval-mlogloss:1.84392
+[5]	eval-mlogloss:1.79177
+[6]	eval-mlogloss:1.74905
+[7]	eval-mlogloss:1.70295
+[8]	eval-mlogloss:1.66585
+[9]	eval-mlogloss:1.63144
+[10]	eval-mlogloss:1.60040
+[11]	eval-mlogloss:1.56238
+[12]	eval-mlogloss:1.52551
+[13]	eval-mlogloss:1.49309
+[14]	eval-mlogloss:1.46257
+[15]	eval-mlogloss:1.43671
+[16]	eval-mlogloss:1.40793
+[17]	eval-mlogloss:1.37916
+[18]	eval-mlogloss:1.35024
+[19]	eval-mlogloss:1.32291
+[20]	eval-mlogloss:1.30265
+[21]	eval-mlogloss:1.28022
+[22]	eval-mlogloss:1.25893
+[23]	eval-mlogloss:1.23641
+[24]	eval-mlogloss:1.21836
+[25]	eval-mlogloss:1.19784
+[26]	eval-mlogloss:1.18204
+[27]	eval-mlogloss:1.16319
+[28]	eval-mlogloss:1.14993
+[29]	eval-mlogloss:1.13398
+[30]	eval-mlogloss:1.11666
+[31]	eval-mlogloss:1.10122
+[32]	eval-mlogloss:1.08917
+[33]	eval-mlogloss:1.07577
+[34]	eval-mlogloss:1.06257
+[35]	eval-mlogloss:1.04878
+[36]	eval-mlogloss:1.03814
+[37]	eval-mlogloss:1.02525
+[38]	eval-mlogloss:1.01355
+[39]	eval-mlogloss:1.00326
+[40]	eval-mlogloss:0.99395
+[41]	eval-mlogloss:0.98368
+[42]	eval-mlogloss:0.97355
+[43]	eval-mlogloss:0.96358
+[44]	eval-mlogloss:0.95254
+[45]	eval-mlogloss:0.94358
+[46]	eval-mlogloss:0.93475
+[47]	eval-mlogloss:0.92872
+[48]	eval-mlogloss:0.92030
+[49]	eval-mlogloss:0.91241
+Accuracy score is 0.7263202011735121
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.52      0.65      1142
+           1       0.90      0.69      0.78      1181
+           2       1.00      0.70      0.82      1215
+           3       0.51      0.99      0.68      1234
+    accuracy                           0.73      4772
+   macro avg       0.83      0.72      0.73      4772
+weighted avg       0.82      0.73      0.73      4772
+[12:13:27] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11895
+[1]	eval-mlogloss:2.04798
+[2]	eval-mlogloss:1.97640
+[3]	eval-mlogloss:1.91604
+[4]	eval-mlogloss:1.84639
+[5]	eval-mlogloss:1.79502
+[6]	eval-mlogloss:1.75265
+[7]	eval-mlogloss:1.70717
+[8]	eval-mlogloss:1.67057
+[9]	eval-mlogloss:1.63608
+[10]	eval-mlogloss:1.60532
+[11]	eval-mlogloss:1.56769
+[12]	eval-mlogloss:1.53079
+[13]	eval-mlogloss:1.49816
+[14]	eval-mlogloss:1.46832
+[15]	eval-mlogloss:1.44274
+[16]	eval-mlogloss:1.41399
+[17]	eval-mlogloss:1.38518
+[18]	eval-mlogloss:1.35648
+[19]	eval-mlogloss:1.32938
+[20]	eval-mlogloss:1.30899
+[21]	eval-mlogloss:1.28655
+[22]	eval-mlogloss:1.26540
+[23]	eval-mlogloss:1.24294
+[24]	eval-mlogloss:1.22503
+[25]	eval-mlogloss:1.20455
+[26]	eval-mlogloss:1.18897
+[27]	eval-mlogloss:1.17021
+[28]	eval-mlogloss:1.15700
+[29]	eval-mlogloss:1.14129
+[30]	eval-mlogloss:1.12404
+[31]	eval-mlogloss:1.10865
+[32]	eval-mlogloss:1.09661
+[33]	eval-mlogloss:1.08331
+[34]	eval-mlogloss:1.07011
+[35]	eval-mlogloss:1.05633
+[36]	eval-mlogloss:1.04573
+[37]	eval-mlogloss:1.03303
+[38]	eval-mlogloss:1.02143
+[39]	eval-mlogloss:1.01131
+[40]	eval-mlogloss:1.00201
+[41]	eval-mlogloss:0.99179
+[42]	eval-mlogloss:0.98166
+[43]	eval-mlogloss:0.97168
+[44]	eval-mlogloss:0.96066
+[45]	eval-mlogloss:0.95162
+[46]	eval-mlogloss:0.94282
+[47]	eval-mlogloss:0.93686
+[48]	eval-mlogloss:0.92857
+[49]	eval-mlogloss:0.92063
+Accuracy score is 0.7094948648082163
+model saved to XGBoost_data/xgb_model_0.72.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.48      0.62      1224
+           1       0.93      0.67      0.78      1248
+           2       1.00      0.72      0.83      1153
+           3       0.48      0.99      0.64      1146
+    accuracy                           0.71      4771
+   macro avg       0.82      0.71      0.72      4771
+weighted avg       0.82      0.71      0.72      4771
+[12:13:31] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11721
+[1]	eval-mlogloss:2.04448
+[2]	eval-mlogloss:1.97176
+[3]	eval-mlogloss:1.91010
+[4]	eval-mlogloss:1.83904
+[5]	eval-mlogloss:1.78648
+[6]	eval-mlogloss:1.74337
+[7]	eval-mlogloss:1.69674
+[8]	eval-mlogloss:1.65934
+[9]	eval-mlogloss:1.62428
+[10]	eval-mlogloss:1.59266
+[11]	eval-mlogloss:1.55426
+[12]	eval-mlogloss:1.51665
+[13]	eval-mlogloss:1.48338
+[14]	eval-mlogloss:1.45279
+[15]	eval-mlogloss:1.42653
+[16]	eval-mlogloss:1.39711
+[17]	eval-mlogloss:1.36772
+[18]	eval-mlogloss:1.33836
+[19]	eval-mlogloss:1.31055
+[20]	eval-mlogloss:1.28977
+[21]	eval-mlogloss:1.26679
+[22]	eval-mlogloss:1.24514
+[23]	eval-mlogloss:1.22211
+[24]	eval-mlogloss:1.20373
+[25]	eval-mlogloss:1.18273
+[26]	eval-mlogloss:1.16659
+[27]	eval-mlogloss:1.14726
+[28]	eval-mlogloss:1.13362
+[29]	eval-mlogloss:1.11736
+[30]	eval-mlogloss:1.09974
+[31]	eval-mlogloss:1.08396
+[32]	eval-mlogloss:1.07177
+[33]	eval-mlogloss:1.05823
+[34]	eval-mlogloss:1.04480
+[35]	eval-mlogloss:1.03055
+[36]	eval-mlogloss:1.01975
+[37]	eval-mlogloss:1.00657
+[38]	eval-mlogloss:0.99462
+[39]	eval-mlogloss:0.98403
+[40]	eval-mlogloss:0.97452
+[41]	eval-mlogloss:0.96410
+[42]	eval-mlogloss:0.95372
+[43]	eval-mlogloss:0.94347
+[44]	eval-mlogloss:0.93209
+[45]	eval-mlogloss:0.92281
+[46]	eval-mlogloss:0.91383
+[47]	eval-mlogloss:0.90780
+[48]	eval-mlogloss:0.89924
+[49]	eval-mlogloss:0.89116
+Accuracy score is 0.7281492349612241
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.50      0.64      1257
+           1       0.89      0.71      0.79      1151
+           2       1.00      0.72      0.84      1163
+           3       0.52      0.99      0.68      1200
+    accuracy                           0.73      4771
+   macro avg       0.82      0.73      0.74      4771
+weighted avg       0.82      0.73      0.73      4771
+[12:13:35] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11744
+[1]	eval-mlogloss:2.04416
+[2]	eval-mlogloss:1.96982
+[3]	eval-mlogloss:1.90801
+[4]	eval-mlogloss:1.83641
+[5]	eval-mlogloss:1.78389
+[6]	eval-mlogloss:1.74043
+[7]	eval-mlogloss:1.69396
+[8]	eval-mlogloss:1.65637
+[9]	eval-mlogloss:1.62101
+[10]	eval-mlogloss:1.58974
+[11]	eval-mlogloss:1.55097
+[12]	eval-mlogloss:1.51278
+[13]	eval-mlogloss:1.47950
+[14]	eval-mlogloss:1.44877
+[15]	eval-mlogloss:1.42240
+[16]	eval-mlogloss:1.39296
+[17]	eval-mlogloss:1.36317
+[18]	eval-mlogloss:1.33344
+[19]	eval-mlogloss:1.30541
+[20]	eval-mlogloss:1.28439
+[21]	eval-mlogloss:1.26144
+[22]	eval-mlogloss:1.23993
+[23]	eval-mlogloss:1.21680
+[24]	eval-mlogloss:1.19836
+[25]	eval-mlogloss:1.17718
+[26]	eval-mlogloss:1.16105
+[27]	eval-mlogloss:1.14165
+[28]	eval-mlogloss:1.12806
+[29]	eval-mlogloss:1.11174
+[30]	eval-mlogloss:1.09408
+[31]	eval-mlogloss:1.07818
+[32]	eval-mlogloss:1.06586
+[33]	eval-mlogloss:1.05211
+[34]	eval-mlogloss:1.03867
+[35]	eval-mlogloss:1.02436
+[36]	eval-mlogloss:1.01356
+[37]	eval-mlogloss:1.00026
+[38]	eval-mlogloss:0.98833
+[39]	eval-mlogloss:0.97767
+[40]	eval-mlogloss:0.96822
+[41]	eval-mlogloss:0.95772
+[42]	eval-mlogloss:0.94736
+[43]	eval-mlogloss:0.93708
+[44]	eval-mlogloss:0.92578
+[45]	eval-mlogloss:0.91657
+[46]	eval-mlogloss:0.90755
+[47]	eval-mlogloss:0.90144
+[48]	eval-mlogloss:0.89281
+[49]	eval-mlogloss:0.88477
+Accuracy score is 0.730874030601551
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.90      0.49      0.63      1188
+           1       0.90      0.71      0.79      1209
+           2       1.00      0.74      0.85      1187
+           3       0.51      0.99      0.67      1187
+    accuracy                           0.73      4771
+   macro avg       0.83      0.73      0.74      4771
+weighted avg       0.83      0.73      0.74      4771
+[12:13:39] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11871
+[1]	eval-mlogloss:2.04709
+[2]	eval-mlogloss:1.97439
+[3]	eval-mlogloss:1.91290
+[4]	eval-mlogloss:1.84232
+[5]	eval-mlogloss:1.79034
+[6]	eval-mlogloss:1.74754
+[7]	eval-mlogloss:1.70150
+[8]	eval-mlogloss:1.66429
+[9]	eval-mlogloss:1.62950
+[10]	eval-mlogloss:1.59818
+[11]	eval-mlogloss:1.55990
+[12]	eval-mlogloss:1.52263
+[13]	eval-mlogloss:1.48981
+[14]	eval-mlogloss:1.45939
+[15]	eval-mlogloss:1.43347
+[16]	eval-mlogloss:1.40441
+[17]	eval-mlogloss:1.37541
+[18]	eval-mlogloss:1.34614
+[19]	eval-mlogloss:1.31848
+[20]	eval-mlogloss:1.29793
+[21]	eval-mlogloss:1.27519
+[22]	eval-mlogloss:1.25380
+[23]	eval-mlogloss:1.23102
+[24]	eval-mlogloss:1.21273
+[25]	eval-mlogloss:1.19187
+[26]	eval-mlogloss:1.17580
+[27]	eval-mlogloss:1.15682
+[28]	eval-mlogloss:1.14346
+[29]	eval-mlogloss:1.12743
+[30]	eval-mlogloss:1.11003
+[31]	eval-mlogloss:1.09440
+[32]	eval-mlogloss:1.08239
+[33]	eval-mlogloss:1.06885
+[34]	eval-mlogloss:1.05559
+[35]	eval-mlogloss:1.04161
+[36]	eval-mlogloss:1.03104
+[37]	eval-mlogloss:1.01812
+[38]	eval-mlogloss:1.00632
+[39]	eval-mlogloss:0.99598
+[40]	eval-mlogloss:0.98656
+[41]	eval-mlogloss:0.97615
+[42]	eval-mlogloss:0.96583
+[43]	eval-mlogloss:0.95567
+[44]	eval-mlogloss:0.94452
+[45]	eval-mlogloss:0.93538
+[46]	eval-mlogloss:0.92640
+[47]	eval-mlogloss:0.92040
+[48]	eval-mlogloss:0.91195
+[49]	eval-mlogloss:0.90396
+Accuracy score is 0.7281492349612241
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.90      0.50      0.64      1185
+           1       0.92      0.69      0.78      1207
+           2       1.00      0.73      0.84      1150
+           3       0.51      0.99      0.67      1229
+    accuracy                           0.73      4771
+   macro avg       0.83      0.73      0.74      4771
+weighted avg       0.83      0.73      0.74      4771
+avg macro_F1_metric: 0.734 4
+[12:13:44] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11711
+[1]	eval-mlogloss:2.04577
+[2]	eval-mlogloss:1.97236
+[3]	eval-mlogloss:1.91129
+[4]	eval-mlogloss:1.84078
+[5]	eval-mlogloss:1.78833
+[6]	eval-mlogloss:1.74521
+[7]	eval-mlogloss:1.69894
+[8]	eval-mlogloss:1.66135
+[9]	eval-mlogloss:1.62639
+[10]	eval-mlogloss:1.59507
+[11]	eval-mlogloss:1.55688
+[12]	eval-mlogloss:1.51974
+[13]	eval-mlogloss:1.48718
+[14]	eval-mlogloss:1.45654
+[15]	eval-mlogloss:1.43056
+[16]	eval-mlogloss:1.40162
+[17]	eval-mlogloss:1.37275
+[18]	eval-mlogloss:1.34379
+[19]	eval-mlogloss:1.31639
+[20]	eval-mlogloss:1.29583
+[21]	eval-mlogloss:1.27317
+[22]	eval-mlogloss:1.25187
+[23]	eval-mlogloss:1.22924
+[24]	eval-mlogloss:1.21097
+[25]	eval-mlogloss:1.19045
+[26]	eval-mlogloss:1.17436
+[27]	eval-mlogloss:1.15538
+[28]	eval-mlogloss:1.14188
+[29]	eval-mlogloss:1.12586
+[30]	eval-mlogloss:1.10837
+[31]	eval-mlogloss:1.09282
+[32]	eval-mlogloss:1.08064
+[33]	eval-mlogloss:1.06713
+[34]	eval-mlogloss:1.05388
+[35]	eval-mlogloss:1.03998
+[36]	eval-mlogloss:1.02920
+[37]	eval-mlogloss:1.01634
+[38]	eval-mlogloss:1.00456
+[39]	eval-mlogloss:0.99412
+[40]	eval-mlogloss:0.98472
+[41]	eval-mlogloss:0.97436
+[42]	eval-mlogloss:0.96421
+[43]	eval-mlogloss:0.95414
+[44]	eval-mlogloss:0.94301
+[45]	eval-mlogloss:0.93400
+[46]	eval-mlogloss:0.92506
+[47]	eval-mlogloss:0.91893
+[48]	eval-mlogloss:0.91050
+[49]	eval-mlogloss:0.90252
+Accuracy score is 0.7311399832355406
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.55      0.66      1142
+           1       0.91      0.69      0.78      1181
+           2       1.00      0.71      0.83      1215
+           3       0.52      0.96      0.68      1234
+    accuracy                           0.73      4772
+   macro avg       0.82      0.73      0.74      4772
+weighted avg       0.82      0.73      0.74      4772
+[12:13:49] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11821
+[1]	eval-mlogloss:2.04662
+[2]	eval-mlogloss:1.97372
+[3]	eval-mlogloss:1.91227
+[4]	eval-mlogloss:1.84191
+[5]	eval-mlogloss:1.79032
+[6]	eval-mlogloss:1.74758
+[7]	eval-mlogloss:1.70182
+[8]	eval-mlogloss:1.66482
+[9]	eval-mlogloss:1.62976
+[10]	eval-mlogloss:1.59865
+[11]	eval-mlogloss:1.56062
+[12]	eval-mlogloss:1.52326
+[13]	eval-mlogloss:1.49069
+[14]	eval-mlogloss:1.46070
+[15]	eval-mlogloss:1.43484
+[16]	eval-mlogloss:1.40563
+[17]	eval-mlogloss:1.37666
+[18]	eval-mlogloss:1.34764
+[19]	eval-mlogloss:1.32041
+[20]	eval-mlogloss:1.29994
+[21]	eval-mlogloss:1.27721
+[22]	eval-mlogloss:1.25602
+[23]	eval-mlogloss:1.23339
+[24]	eval-mlogloss:1.21524
+[25]	eval-mlogloss:1.19464
+[26]	eval-mlogloss:1.17865
+[27]	eval-mlogloss:1.15987
+[28]	eval-mlogloss:1.14656
+[29]	eval-mlogloss:1.13070
+[30]	eval-mlogloss:1.11327
+[31]	eval-mlogloss:1.09772
+[32]	eval-mlogloss:1.08559
+[33]	eval-mlogloss:1.07215
+[34]	eval-mlogloss:1.05888
+[35]	eval-mlogloss:1.04506
+[36]	eval-mlogloss:1.03429
+[37]	eval-mlogloss:1.02146
+[38]	eval-mlogloss:1.00984
+[39]	eval-mlogloss:0.99965
+[40]	eval-mlogloss:0.99025
+[41]	eval-mlogloss:0.97996
+[42]	eval-mlogloss:0.96980
+[43]	eval-mlogloss:0.95971
+[44]	eval-mlogloss:0.94867
+[45]	eval-mlogloss:0.93953
+[46]	eval-mlogloss:0.93069
+[47]	eval-mlogloss:0.92470
+[48]	eval-mlogloss:0.91631
+[49]	eval-mlogloss:0.90829
+Accuracy score is 0.7214420456927269
+model saved to XGBoost_data/xgb_model_0.73.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.52      0.65      1224
+           1       0.93      0.68      0.79      1248
+           2       1.00      0.72      0.84      1153
+           3       0.49      0.98      0.65      1146
+    accuracy                           0.72      4771
+   macro avg       0.83      0.73      0.73      4771
+weighted avg       0.83      0.72      0.73      4771
+[12:13:54] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11606
+[1]	eval-mlogloss:2.04259
+[2]	eval-mlogloss:1.96869
+[3]	eval-mlogloss:1.90603
+[4]	eval-mlogloss:1.83430
+[5]	eval-mlogloss:1.78145
+[6]	eval-mlogloss:1.73795
+[7]	eval-mlogloss:1.69099
+[8]	eval-mlogloss:1.65323
+[9]	eval-mlogloss:1.61729
+[10]	eval-mlogloss:1.58532
+[11]	eval-mlogloss:1.54665
+[12]	eval-mlogloss:1.50862
+[13]	eval-mlogloss:1.47530
+[14]	eval-mlogloss:1.44466
+[15]	eval-mlogloss:1.41822
+[16]	eval-mlogloss:1.38837
+[17]	eval-mlogloss:1.35885
+[18]	eval-mlogloss:1.32932
+[19]	eval-mlogloss:1.30138
+[20]	eval-mlogloss:1.28046
+[21]	eval-mlogloss:1.25721
+[22]	eval-mlogloss:1.23544
+[23]	eval-mlogloss:1.21215
+[24]	eval-mlogloss:1.19350
+[25]	eval-mlogloss:1.17227
+[26]	eval-mlogloss:1.15576
+[27]	eval-mlogloss:1.13630
+[28]	eval-mlogloss:1.12258
+[29]	eval-mlogloss:1.10623
+[30]	eval-mlogloss:1.08840
+[31]	eval-mlogloss:1.07244
+[32]	eval-mlogloss:1.06006
+[33]	eval-mlogloss:1.04627
+[34]	eval-mlogloss:1.03270
+[35]	eval-mlogloss:1.01846
+[36]	eval-mlogloss:1.00745
+[37]	eval-mlogloss:0.99407
+[38]	eval-mlogloss:0.98206
+[39]	eval-mlogloss:0.97140
+[40]	eval-mlogloss:0.96185
+[41]	eval-mlogloss:0.95135
+[42]	eval-mlogloss:0.94100
+[43]	eval-mlogloss:0.93067
+[44]	eval-mlogloss:0.91925
+[45]	eval-mlogloss:0.90997
+[46]	eval-mlogloss:0.90099
+[47]	eval-mlogloss:0.89486
+[48]	eval-mlogloss:0.88611
+[49]	eval-mlogloss:0.87791
+Accuracy score is 0.7369524208761266
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.53      0.66      1257
+           1       0.90      0.72      0.80      1151
+           2       1.00      0.73      0.84      1163
+           3       0.52      0.98      0.68      1200
+    accuracy                           0.74      4771
+   macro avg       0.83      0.74      0.75      4771
+weighted avg       0.83      0.74      0.74      4771
+[12:13:58] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11635
+[1]	eval-mlogloss:2.04231
+[2]	eval-mlogloss:1.96702
+[3]	eval-mlogloss:1.90435
+[4]	eval-mlogloss:1.83207
+[5]	eval-mlogloss:1.77922
+[6]	eval-mlogloss:1.73547
+[7]	eval-mlogloss:1.68860
+[8]	eval-mlogloss:1.65079
+[9]	eval-mlogloss:1.61457
+[10]	eval-mlogloss:1.58292
+[11]	eval-mlogloss:1.54385
+[12]	eval-mlogloss:1.50537
+[13]	eval-mlogloss:1.47198
+[14]	eval-mlogloss:1.44101
+[15]	eval-mlogloss:1.41441
+[16]	eval-mlogloss:1.38449
+[17]	eval-mlogloss:1.35465
+[18]	eval-mlogloss:1.32470
+[19]	eval-mlogloss:1.29654
+[20]	eval-mlogloss:1.27554
+[21]	eval-mlogloss:1.25229
+[22]	eval-mlogloss:1.23062
+[23]	eval-mlogloss:1.20729
+[24]	eval-mlogloss:1.18855
+[25]	eval-mlogloss:1.16719
+[26]	eval-mlogloss:1.15078
+[27]	eval-mlogloss:1.13130
+[28]	eval-mlogloss:1.11763
+[29]	eval-mlogloss:1.10130
+[30]	eval-mlogloss:1.08342
+[31]	eval-mlogloss:1.06740
+[32]	eval-mlogloss:1.05501
+[33]	eval-mlogloss:1.04105
+[34]	eval-mlogloss:1.02746
+[35]	eval-mlogloss:1.01306
+[36]	eval-mlogloss:1.00207
+[37]	eval-mlogloss:0.98857
+[38]	eval-mlogloss:0.97658
+[39]	eval-mlogloss:0.96583
+[40]	eval-mlogloss:0.95634
+[41]	eval-mlogloss:0.94576
+[42]	eval-mlogloss:0.93537
+[43]	eval-mlogloss:0.92503
+[44]	eval-mlogloss:0.91368
+[45]	eval-mlogloss:0.90444
+[46]	eval-mlogloss:0.89540
+[47]	eval-mlogloss:0.88924
+[48]	eval-mlogloss:0.88049
+[49]	eval-mlogloss:0.87233
+Accuracy score is 0.7396772165164536
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.52      0.65      1188
+           1       0.91      0.72      0.80      1209
+           2       1.00      0.75      0.85      1187
+           3       0.52      0.98      0.68      1187
+    accuracy                           0.74      4771
+   macro avg       0.83      0.74      0.75      4771
+weighted avg       0.83      0.74      0.75      4771
+[12:14:02] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11776
+[1]	eval-mlogloss:2.04562
+[2]	eval-mlogloss:1.97182
+[3]	eval-mlogloss:1.90960
+[4]	eval-mlogloss:1.83847
+[5]	eval-mlogloss:1.78619
+[6]	eval-mlogloss:1.74291
+[7]	eval-mlogloss:1.69651
+[8]	eval-mlogloss:1.65893
+[9]	eval-mlogloss:1.62335
+[10]	eval-mlogloss:1.59166
+[11]	eval-mlogloss:1.55325
+[12]	eval-mlogloss:1.51566
+[13]	eval-mlogloss:1.48258
+[14]	eval-mlogloss:1.45215
+[15]	eval-mlogloss:1.42605
+[16]	eval-mlogloss:1.39656
+[17]	eval-mlogloss:1.36759
+[18]	eval-mlogloss:1.33825
+[19]	eval-mlogloss:1.31050
+[20]	eval-mlogloss:1.28981
+[21]	eval-mlogloss:1.26682
+[22]	eval-mlogloss:1.24529
+[23]	eval-mlogloss:1.22229
+[24]	eval-mlogloss:1.20382
+[25]	eval-mlogloss:1.18280
+[26]	eval-mlogloss:1.16652
+[27]	eval-mlogloss:1.14745
+[28]	eval-mlogloss:1.13402
+[29]	eval-mlogloss:1.11788
+[30]	eval-mlogloss:1.10039
+[31]	eval-mlogloss:1.08452
+[32]	eval-mlogloss:1.07241
+[33]	eval-mlogloss:1.05878
+[34]	eval-mlogloss:1.04544
+[35]	eval-mlogloss:1.03137
+[36]	eval-mlogloss:1.02065
+[37]	eval-mlogloss:1.00765
+[38]	eval-mlogloss:0.99580
+[39]	eval-mlogloss:0.98542
+[40]	eval-mlogloss:0.97596
+[41]	eval-mlogloss:0.96548
+[42]	eval-mlogloss:0.95515
+[43]	eval-mlogloss:0.94487
+[44]	eval-mlogloss:0.93371
+[45]	eval-mlogloss:0.92455
+[46]	eval-mlogloss:0.91554
+[47]	eval-mlogloss:0.90945
+[48]	eval-mlogloss:0.90083
+[49]	eval-mlogloss:0.89278
+Accuracy score is 0.7350660238943618
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.52      0.65      1185
+           1       0.92      0.70      0.79      1207
+           2       1.00      0.74      0.85      1150
+           3       0.52      0.98      0.68      1229
+    accuracy                           0.74      4771
+   macro avg       0.83      0.73      0.74      4771
+weighted avg       0.83      0.74      0.74      4771
+avg macro_F1_metric: 0.742 5
+[12:14:06] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11638
+[1]	eval-mlogloss:2.04467
+[2]	eval-mlogloss:1.97101
+[3]	eval-mlogloss:1.90946
+[4]	eval-mlogloss:1.83846
+[5]	eval-mlogloss:1.78576
+[6]	eval-mlogloss:1.74234
+[7]	eval-mlogloss:1.69571
+[8]	eval-mlogloss:1.65784
+[9]	eval-mlogloss:1.62237
+[10]	eval-mlogloss:1.59068
+[11]	eval-mlogloss:1.55231
+[12]	eval-mlogloss:1.51504
+[13]	eval-mlogloss:1.48223
+[14]	eval-mlogloss:1.45146
+[15]	eval-mlogloss:1.42528
+[16]	eval-mlogloss:1.39607
+[17]	eval-mlogloss:1.36707
+[18]	eval-mlogloss:1.33798
+[19]	eval-mlogloss:1.31051
+[20]	eval-mlogloss:1.28977
+[21]	eval-mlogloss:1.26695
+[22]	eval-mlogloss:1.24549
+[23]	eval-mlogloss:1.22274
+[24]	eval-mlogloss:1.20425
+[25]	eval-mlogloss:1.18361
+[26]	eval-mlogloss:1.16724
+[27]	eval-mlogloss:1.14808
+[28]	eval-mlogloss:1.13435
+[29]	eval-mlogloss:1.11821
+[30]	eval-mlogloss:1.10066
+[31]	eval-mlogloss:1.08490
+[32]	eval-mlogloss:1.07241
+[33]	eval-mlogloss:1.05882
+[34]	eval-mlogloss:1.04551
+[35]	eval-mlogloss:1.03153
+[36]	eval-mlogloss:1.02061
+[37]	eval-mlogloss:1.00768
+[38]	eval-mlogloss:0.99587
+[39]	eval-mlogloss:0.98540
+[40]	eval-mlogloss:0.97590
+[41]	eval-mlogloss:0.96537
+[42]	eval-mlogloss:0.95517
+[43]	eval-mlogloss:0.94504
+[44]	eval-mlogloss:0.93383
+[45]	eval-mlogloss:0.92469
+[46]	eval-mlogloss:0.91565
+[47]	eval-mlogloss:0.90930
+[48]	eval-mlogloss:0.90089
+[49]	eval-mlogloss:0.89275
+Accuracy score is 0.7380553227158424
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.56      0.67      1142
+           1       0.92      0.70      0.79      1181
+           2       1.00      0.72      0.84      1215
+           3       0.53      0.96      0.68      1234
+    accuracy                           0.74      4772
+   macro avg       0.82      0.73      0.75      4772
+weighted avg       0.82      0.74      0.75      4772
+[12:14:11] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11759
+[1]	eval-mlogloss:2.04547
+[2]	eval-mlogloss:1.97203
+[3]	eval-mlogloss:1.91013
+[4]	eval-mlogloss:1.83944
+[5]	eval-mlogloss:1.78765
+[6]	eval-mlogloss:1.74474
+[7]	eval-mlogloss:1.69865
+[8]	eval-mlogloss:1.66124
+[9]	eval-mlogloss:1.62585
+[10]	eval-mlogloss:1.59446
+[11]	eval-mlogloss:1.55637
+[12]	eval-mlogloss:1.51880
+[13]	eval-mlogloss:1.48608
+[14]	eval-mlogloss:1.45599
+[15]	eval-mlogloss:1.42984
+[16]	eval-mlogloss:1.40043
+[17]	eval-mlogloss:1.37135
+[18]	eval-mlogloss:1.34230
+[19]	eval-mlogloss:1.31493
+[20]	eval-mlogloss:1.29408
+[21]	eval-mlogloss:1.27119
+[22]	eval-mlogloss:1.24973
+[23]	eval-mlogloss:1.22706
+[24]	eval-mlogloss:1.20868
+[25]	eval-mlogloss:1.18792
+[26]	eval-mlogloss:1.17174
+[27]	eval-mlogloss:1.15286
+[28]	eval-mlogloss:1.13931
+[29]	eval-mlogloss:1.12328
+[30]	eval-mlogloss:1.10574
+[31]	eval-mlogloss:1.09017
+[32]	eval-mlogloss:1.07801
+[33]	eval-mlogloss:1.06441
+[34]	eval-mlogloss:1.05109
+[35]	eval-mlogloss:1.03716
+[36]	eval-mlogloss:1.02615
+[37]	eval-mlogloss:1.01323
+[38]	eval-mlogloss:1.00143
+[39]	eval-mlogloss:0.99112
+[40]	eval-mlogloss:0.98159
+[41]	eval-mlogloss:0.97122
+[42]	eval-mlogloss:0.96105
+[43]	eval-mlogloss:0.95093
+[44]	eval-mlogloss:0.93983
+[45]	eval-mlogloss:0.93063
+[46]	eval-mlogloss:0.92168
+[47]	eval-mlogloss:0.91561
+[48]	eval-mlogloss:0.90719
+[49]	eval-mlogloss:0.89910
+Accuracy score is 0.725005239991616
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.53      0.66      1224
+           1       0.94      0.68      0.79      1248
+           2       0.99      0.73      0.84      1153
+           3       0.49      0.97      0.65      1146
+    accuracy                           0.73      4771
+   macro avg       0.82      0.73      0.74      4771
+weighted avg       0.83      0.73      0.74      4771
+[12:14:15] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11524
+[1]	eval-mlogloss:2.04121
+[2]	eval-mlogloss:1.96692
+[3]	eval-mlogloss:1.90355
+[4]	eval-mlogloss:1.83153
+[5]	eval-mlogloss:1.77819
+[6]	eval-mlogloss:1.73427
+[7]	eval-mlogloss:1.68697
+[8]	eval-mlogloss:1.64884
+[9]	eval-mlogloss:1.61253
+[10]	eval-mlogloss:1.58017
+[11]	eval-mlogloss:1.54142
+[12]	eval-mlogloss:1.50319
+[13]	eval-mlogloss:1.46960
+[14]	eval-mlogloss:1.43891
+[15]	eval-mlogloss:1.41235
+[16]	eval-mlogloss:1.38226
+[17]	eval-mlogloss:1.35257
+[18]	eval-mlogloss:1.32276
+[19]	eval-mlogloss:1.29477
+[20]	eval-mlogloss:1.27362
+[21]	eval-mlogloss:1.25011
+[22]	eval-mlogloss:1.22819
+[23]	eval-mlogloss:1.20475
+[24]	eval-mlogloss:1.18593
+[25]	eval-mlogloss:1.16455
+[26]	eval-mlogloss:1.14771
+[27]	eval-mlogloss:1.12812
+[28]	eval-mlogloss:1.11434
+[29]	eval-mlogloss:1.09789
+[30]	eval-mlogloss:1.07995
+[31]	eval-mlogloss:1.06379
+[32]	eval-mlogloss:1.05122
+[33]	eval-mlogloss:1.03731
+[34]	eval-mlogloss:1.02363
+[35]	eval-mlogloss:1.00934
+[36]	eval-mlogloss:0.99817
+[37]	eval-mlogloss:0.98477
+[38]	eval-mlogloss:0.97274
+[39]	eval-mlogloss:0.96188
+[40]	eval-mlogloss:0.95223
+[41]	eval-mlogloss:0.94153
+[42]	eval-mlogloss:0.93114
+[43]	eval-mlogloss:0.92063
+[44]	eval-mlogloss:0.90907
+[45]	eval-mlogloss:0.89973
+[46]	eval-mlogloss:0.89066
+[47]	eval-mlogloss:0.88439
+[48]	eval-mlogloss:0.87548
+[49]	eval-mlogloss:0.86711
+Accuracy score is 0.7426116118214211
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.54      0.67      1257
+           1       0.91      0.72      0.81      1151
+           2       1.00      0.74      0.85      1163
+           3       0.53      0.97      0.68      1200
+    accuracy                           0.74      4771
+   macro avg       0.83      0.74      0.75      4771
+weighted avg       0.83      0.74      0.75      4771
+[12:14:20] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11553
+[1]	eval-mlogloss:2.04097
+[2]	eval-mlogloss:1.96530
+[3]	eval-mlogloss:1.90210
+[4]	eval-mlogloss:1.82960
+[5]	eval-mlogloss:1.77634
+[6]	eval-mlogloss:1.73221
+[7]	eval-mlogloss:1.68520
+[8]	eval-mlogloss:1.64701
+[9]	eval-mlogloss:1.61052
+[10]	eval-mlogloss:1.57856
+[11]	eval-mlogloss:1.53945
+[12]	eval-mlogloss:1.50074
+[13]	eval-mlogloss:1.46723
+[14]	eval-mlogloss:1.43616
+[15]	eval-mlogloss:1.40952
+[16]	eval-mlogloss:1.37932
+[17]	eval-mlogloss:1.34924
+[18]	eval-mlogloss:1.31912
+[19]	eval-mlogloss:1.29084
+[20]	eval-mlogloss:1.26958
+[21]	eval-mlogloss:1.24608
+[22]	eval-mlogloss:1.22422
+[23]	eval-mlogloss:1.20080
+[24]	eval-mlogloss:1.18184
+[25]	eval-mlogloss:1.16023
+[26]	eval-mlogloss:1.14355
+[27]	eval-mlogloss:1.12397
+[28]	eval-mlogloss:1.11003
+[29]	eval-mlogloss:1.09357
+[30]	eval-mlogloss:1.07550
+[31]	eval-mlogloss:1.05941
+[32]	eval-mlogloss:1.04690
+[33]	eval-mlogloss:1.03286
+[34]	eval-mlogloss:1.01915
+[35]	eval-mlogloss:1.00467
+[36]	eval-mlogloss:0.99350
+[37]	eval-mlogloss:0.98000
+[38]	eval-mlogloss:0.96798
+[39]	eval-mlogloss:0.95710
+[40]	eval-mlogloss:0.94744
+[41]	eval-mlogloss:0.93676
+[42]	eval-mlogloss:0.92636
+[43]	eval-mlogloss:0.91609
+[44]	eval-mlogloss:0.90468
+[45]	eval-mlogloss:0.89537
+[46]	eval-mlogloss:0.88629
+[47]	eval-mlogloss:0.88008
+[48]	eval-mlogloss:0.87115
+[49]	eval-mlogloss:0.86287
+Accuracy score is 0.7484804024313562
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.55      0.68      1188
+           1       0.91      0.72      0.80      1209
+           2       1.00      0.75      0.86      1187
+           3       0.53      0.97      0.69      1187
+    accuracy                           0.75      4771
+   macro avg       0.83      0.75      0.76      4771
+weighted avg       0.83      0.75      0.76      4771
+[12:14:24] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11666
+[1]	eval-mlogloss:2.04408
+[2]	eval-mlogloss:1.96995
+[3]	eval-mlogloss:1.90748
+[4]	eval-mlogloss:1.83617
+[5]	eval-mlogloss:1.78364
+[6]	eval-mlogloss:1.73996
+[7]	eval-mlogloss:1.69322
+[8]	eval-mlogloss:1.65535
+[9]	eval-mlogloss:1.61908
+[10]	eval-mlogloss:1.58687
+[11]	eval-mlogloss:1.54835
+[12]	eval-mlogloss:1.51059
+[13]	eval-mlogloss:1.47732
+[14]	eval-mlogloss:1.44667
+[15]	eval-mlogloss:1.42025
+[16]	eval-mlogloss:1.39042
+[17]	eval-mlogloss:1.36132
+[18]	eval-mlogloss:1.33180
+[19]	eval-mlogloss:1.30397
+[20]	eval-mlogloss:1.28309
+[21]	eval-mlogloss:1.25986
+[22]	eval-mlogloss:1.23807
+[23]	eval-mlogloss:1.21502
+[24]	eval-mlogloss:1.19632
+[25]	eval-mlogloss:1.17521
+[26]	eval-mlogloss:1.15856
+[27]	eval-mlogloss:1.13929
+[28]	eval-mlogloss:1.12570
+[29]	eval-mlogloss:1.10945
+[30]	eval-mlogloss:1.09190
+[31]	eval-mlogloss:1.07605
+[32]	eval-mlogloss:1.06377
+[33]	eval-mlogloss:1.05014
+[34]	eval-mlogloss:1.03668
+[35]	eval-mlogloss:1.02248
+[36]	eval-mlogloss:1.01167
+[37]	eval-mlogloss:0.99857
+[38]	eval-mlogloss:0.98663
+[39]	eval-mlogloss:0.97621
+[40]	eval-mlogloss:0.96662
+[41]	eval-mlogloss:0.95605
+[42]	eval-mlogloss:0.94562
+[43]	eval-mlogloss:0.93527
+[44]	eval-mlogloss:0.92409
+[45]	eval-mlogloss:0.91485
+[46]	eval-mlogloss:0.90574
+[47]	eval-mlogloss:0.89946
+[48]	eval-mlogloss:0.89085
+[49]	eval-mlogloss:0.88257
+Accuracy score is 0.7424020121567806
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.54      0.67      1185
+           1       0.93      0.70      0.80      1207
+           2       1.00      0.75      0.85      1150
+           3       0.53      0.98      0.68      1229
+    accuracy                           0.74      4771
+   macro avg       0.83      0.74      0.75      4771
+weighted avg       0.83      0.74      0.75      4771
+avg macro_F1_metric: 0.75 6
+[12:14:30] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11563
+[1]	eval-mlogloss:2.04350
+[2]	eval-mlogloss:1.96958
+[3]	eval-mlogloss:1.90763
+[4]	eval-mlogloss:1.83665
+[5]	eval-mlogloss:1.78366
+[6]	eval-mlogloss:1.74002
+[7]	eval-mlogloss:1.69327
+[8]	eval-mlogloss:1.65497
+[9]	eval-mlogloss:1.61904
+[10]	eval-mlogloss:1.58697
+[11]	eval-mlogloss:1.54837
+[12]	eval-mlogloss:1.51102
+[13]	eval-mlogloss:1.47799
+[14]	eval-mlogloss:1.44708
+[15]	eval-mlogloss:1.42047
+[16]	eval-mlogloss:1.39108
+[17]	eval-mlogloss:1.36192
+[18]	eval-mlogloss:1.33275
+[19]	eval-mlogloss:1.30509
+[20]	eval-mlogloss:1.28423
+[21]	eval-mlogloss:1.26131
+[22]	eval-mlogloss:1.23972
+[23]	eval-mlogloss:1.21684
+[24]	eval-mlogloss:1.19814
+[25]	eval-mlogloss:1.17736
+[26]	eval-mlogloss:1.16073
+[27]	eval-mlogloss:1.14144
+[28]	eval-mlogloss:1.12748
+[29]	eval-mlogloss:1.11134
+[30]	eval-mlogloss:1.09355
+[31]	eval-mlogloss:1.07759
+[32]	eval-mlogloss:1.06482
+[33]	eval-mlogloss:1.05114
+[34]	eval-mlogloss:1.03763
+[35]	eval-mlogloss:1.02355
+[36]	eval-mlogloss:1.01237
+[37]	eval-mlogloss:0.99935
+[38]	eval-mlogloss:0.98738
+[39]	eval-mlogloss:0.97678
+[40]	eval-mlogloss:0.96708
+[41]	eval-mlogloss:0.95635
+[42]	eval-mlogloss:0.94612
+[43]	eval-mlogloss:0.93592
+[44]	eval-mlogloss:0.92455
+[45]	eval-mlogloss:0.91532
+[46]	eval-mlogloss:0.90632
+[47]	eval-mlogloss:0.89984
+[48]	eval-mlogloss:0.89126
+[49]	eval-mlogloss:0.88302
+Accuracy score is 0.7426655490360435
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.58      0.69      1142
+           1       0.93      0.70      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.53      0.95      0.68      1234
+    accuracy                           0.74      4772
+   macro avg       0.82      0.74      0.75      4772
+weighted avg       0.82      0.74      0.75      4772
+[12:14:35] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11692
+[1]	eval-mlogloss:2.04448
+[2]	eval-mlogloss:1.97075
+[3]	eval-mlogloss:1.90821
+[4]	eval-mlogloss:1.83734
+[5]	eval-mlogloss:1.78523
+[6]	eval-mlogloss:1.74198
+[7]	eval-mlogloss:1.69566
+[8]	eval-mlogloss:1.65791
+[9]	eval-mlogloss:1.62194
+[10]	eval-mlogloss:1.59017
+[11]	eval-mlogloss:1.55189
+[12]	eval-mlogloss:1.51412
+[13]	eval-mlogloss:1.48118
+[14]	eval-mlogloss:1.45089
+[15]	eval-mlogloss:1.42462
+[16]	eval-mlogloss:1.39491
+[17]	eval-mlogloss:1.36569
+[18]	eval-mlogloss:1.33660
+[19]	eval-mlogloss:1.30905
+[20]	eval-mlogloss:1.28796
+[21]	eval-mlogloss:1.26492
+[22]	eval-mlogloss:1.24342
+[23]	eval-mlogloss:1.22047
+[24]	eval-mlogloss:1.20202
+[25]	eval-mlogloss:1.18103
+[26]	eval-mlogloss:1.16461
+[27]	eval-mlogloss:1.14561
+[28]	eval-mlogloss:1.13188
+[29]	eval-mlogloss:1.11580
+[30]	eval-mlogloss:1.09818
+[31]	eval-mlogloss:1.08243
+[32]	eval-mlogloss:1.07003
+[33]	eval-mlogloss:1.05635
+[34]	eval-mlogloss:1.04293
+[35]	eval-mlogloss:1.02886
+[36]	eval-mlogloss:1.01765
+[37]	eval-mlogloss:1.00456
+[38]	eval-mlogloss:0.99267
+[39]	eval-mlogloss:0.98229
+[40]	eval-mlogloss:0.97259
+[41]	eval-mlogloss:0.96208
+[42]	eval-mlogloss:0.95190
+[43]	eval-mlogloss:0.94165
+[44]	eval-mlogloss:0.93043
+[45]	eval-mlogloss:0.92132
+[46]	eval-mlogloss:0.91241
+[47]	eval-mlogloss:0.90601
+[48]	eval-mlogloss:0.89755
+[49]	eval-mlogloss:0.88937
+Accuracy score is 0.7319220289247538
+model saved to XGBoost_data/xgb_model_0.74.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.55      0.67      1224
+           1       0.95      0.69      0.80      1248
+           2       0.99      0.74      0.85      1153
+           3       0.50      0.97      0.66      1146
+    accuracy                           0.73      4771
+   macro avg       0.83      0.74      0.74      4771
+weighted avg       0.83      0.73      0.74      4771
+[12:14:39] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11456
+[1]	eval-mlogloss:2.04007
+[2]	eval-mlogloss:1.96549
+[3]	eval-mlogloss:1.90152
+[4]	eval-mlogloss:1.82927
+[5]	eval-mlogloss:1.77564
+[6]	eval-mlogloss:1.73123
+[7]	eval-mlogloss:1.68375
+[8]	eval-mlogloss:1.64543
+[9]	eval-mlogloss:1.60880
+[10]	eval-mlogloss:1.57615
+[11]	eval-mlogloss:1.53722
+[12]	eval-mlogloss:1.49878
+[13]	eval-mlogloss:1.46502
+[14]	eval-mlogloss:1.43420
+[15]	eval-mlogloss:1.40729
+[16]	eval-mlogloss:1.37695
+[17]	eval-mlogloss:1.34711
+[18]	eval-mlogloss:1.31708
+[19]	eval-mlogloss:1.28895
+[20]	eval-mlogloss:1.26748
+[21]	eval-mlogloss:1.24375
+[22]	eval-mlogloss:1.22162
+[23]	eval-mlogloss:1.19809
+[24]	eval-mlogloss:1.17898
+[25]	eval-mlogloss:1.15746
+[26]	eval-mlogloss:1.14050
+[27]	eval-mlogloss:1.12074
+[28]	eval-mlogloss:1.10687
+[29]	eval-mlogloss:1.09036
+[30]	eval-mlogloss:1.07234
+[31]	eval-mlogloss:1.05605
+[32]	eval-mlogloss:1.04337
+[33]	eval-mlogloss:1.02934
+[34]	eval-mlogloss:1.01551
+[35]	eval-mlogloss:1.00111
+[36]	eval-mlogloss:0.98972
+[37]	eval-mlogloss:0.97622
+[38]	eval-mlogloss:0.96415
+[39]	eval-mlogloss:0.95320
+[40]	eval-mlogloss:0.94343
+[41]	eval-mlogloss:0.93261
+[42]	eval-mlogloss:0.92214
+[43]	eval-mlogloss:0.91161
+[44]	eval-mlogloss:0.89996
+[45]	eval-mlogloss:0.89053
+[46]	eval-mlogloss:0.88134
+[47]	eval-mlogloss:0.87495
+[48]	eval-mlogloss:0.86609
+[49]	eval-mlogloss:0.85765
+Accuracy score is 0.7514147977363236
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.89      0.57      0.69      1257
+           1       0.92      0.73      0.81      1151
+           2       1.00      0.75      0.86      1163
+           3       0.53      0.97      0.69      1200
+    accuracy                           0.75      4771
+   macro avg       0.83      0.75      0.76      4771
+weighted avg       0.83      0.75      0.76      4771
+[12:14:44] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11508
+[1]	eval-mlogloss:2.04001
+[2]	eval-mlogloss:1.96409
+[3]	eval-mlogloss:1.90027
+[4]	eval-mlogloss:1.82757
+[5]	eval-mlogloss:1.77408
+[6]	eval-mlogloss:1.72989
+[7]	eval-mlogloss:1.68257
+[8]	eval-mlogloss:1.64415
+[9]	eval-mlogloss:1.60725
+[10]	eval-mlogloss:1.57489
+[11]	eval-mlogloss:1.53551
+[12]	eval-mlogloss:1.49668
+[13]	eval-mlogloss:1.46307
+[14]	eval-mlogloss:1.43177
+[15]	eval-mlogloss:1.40487
+[16]	eval-mlogloss:1.37442
+[17]	eval-mlogloss:1.34438
+[18]	eval-mlogloss:1.31410
+[19]	eval-mlogloss:1.28568
+[20]	eval-mlogloss:1.26421
+[21]	eval-mlogloss:1.24065
+[22]	eval-mlogloss:1.21860
+[23]	eval-mlogloss:1.19503
+[24]	eval-mlogloss:1.17582
+[25]	eval-mlogloss:1.15409
+[26]	eval-mlogloss:1.13724
+[27]	eval-mlogloss:1.11760
+[28]	eval-mlogloss:1.10354
+[29]	eval-mlogloss:1.08698
+[30]	eval-mlogloss:1.06893
+[31]	eval-mlogloss:1.05271
+[32]	eval-mlogloss:1.04002
+[33]	eval-mlogloss:1.02589
+[34]	eval-mlogloss:1.01201
+[35]	eval-mlogloss:0.99742
+[36]	eval-mlogloss:0.98615
+[37]	eval-mlogloss:0.97263
+[38]	eval-mlogloss:0.96045
+[39]	eval-mlogloss:0.94946
+[40]	eval-mlogloss:0.93962
+[41]	eval-mlogloss:0.92880
+[42]	eval-mlogloss:0.91825
+[43]	eval-mlogloss:0.90795
+[44]	eval-mlogloss:0.89652
+[45]	eval-mlogloss:0.88728
+[46]	eval-mlogloss:0.87802
+[47]	eval-mlogloss:0.87165
+[48]	eval-mlogloss:0.86265
+[49]	eval-mlogloss:0.85435
+Accuracy score is 0.7553971913644938
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.58      0.69      1188
+           1       0.93      0.72      0.81      1209
+           2       0.99      0.77      0.87      1187
+           3       0.54      0.96      0.69      1187
+    accuracy                           0.76      4771
+   macro avg       0.83      0.76      0.76      4771
+weighted avg       0.83      0.76      0.76      4771
+[12:14:49] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11607
+[1]	eval-mlogloss:2.04324
+[2]	eval-mlogloss:1.96880
+[3]	eval-mlogloss:1.90557
+[4]	eval-mlogloss:1.83431
+[5]	eval-mlogloss:1.78161
+[6]	eval-mlogloss:1.73772
+[7]	eval-mlogloss:1.69065
+[8]	eval-mlogloss:1.65248
+[9]	eval-mlogloss:1.61582
+[10]	eval-mlogloss:1.58332
+[11]	eval-mlogloss:1.54473
+[12]	eval-mlogloss:1.50669
+[13]	eval-mlogloss:1.47327
+[14]	eval-mlogloss:1.44252
+[15]	eval-mlogloss:1.41577
+[16]	eval-mlogloss:1.38580
+[17]	eval-mlogloss:1.35647
+[18]	eval-mlogloss:1.32689
+[19]	eval-mlogloss:1.29898
+[20]	eval-mlogloss:1.27804
+[21]	eval-mlogloss:1.25469
+[22]	eval-mlogloss:1.23282
+[23]	eval-mlogloss:1.20959
+[24]	eval-mlogloss:1.19076
+[25]	eval-mlogloss:1.16958
+[26]	eval-mlogloss:1.15273
+[27]	eval-mlogloss:1.13328
+[28]	eval-mlogloss:1.11959
+[29]	eval-mlogloss:1.10322
+[30]	eval-mlogloss:1.08551
+[31]	eval-mlogloss:1.06937
+[32]	eval-mlogloss:1.05693
+[33]	eval-mlogloss:1.04326
+[34]	eval-mlogloss:1.02965
+[35]	eval-mlogloss:1.01533
+[36]	eval-mlogloss:1.00412
+[37]	eval-mlogloss:0.99087
+[38]	eval-mlogloss:0.97881
+[39]	eval-mlogloss:0.96826
+[40]	eval-mlogloss:0.95855
+[41]	eval-mlogloss:0.94800
+[42]	eval-mlogloss:0.93755
+[43]	eval-mlogloss:0.92712
+[44]	eval-mlogloss:0.91583
+[45]	eval-mlogloss:0.90652
+[46]	eval-mlogloss:0.89720
+[47]	eval-mlogloss:0.89084
+[48]	eval-mlogloss:0.88211
+[49]	eval-mlogloss:0.87372
+Accuracy score is 0.747642003772794
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.56      0.68      1185
+           1       0.93      0.70      0.80      1207
+           2       0.99      0.75      0.86      1150
+           3       0.53      0.97      0.69      1229
+    accuracy                           0.75      4771
+   macro avg       0.83      0.75      0.76      4771
+weighted avg       0.83      0.75      0.76      4771
+avg macro_F1_metric: 0.7539999999999999 7
+[12:14:53] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11536
+[1]	eval-mlogloss:2.04288
+[2]	eval-mlogloss:1.96874
+[3]	eval-mlogloss:1.90656
+[4]	eval-mlogloss:1.83537
+[5]	eval-mlogloss:1.78207
+[6]	eval-mlogloss:1.73810
+[7]	eval-mlogloss:1.69118
+[8]	eval-mlogloss:1.65256
+[9]	eval-mlogloss:1.61644
+[10]	eval-mlogloss:1.58398
+[11]	eval-mlogloss:1.54515
+[12]	eval-mlogloss:1.50756
+[13]	eval-mlogloss:1.47445
+[14]	eval-mlogloss:1.44342
+[15]	eval-mlogloss:1.41648
+[16]	eval-mlogloss:1.38688
+[17]	eval-mlogloss:1.35759
+[18]	eval-mlogloss:1.32833
+[19]	eval-mlogloss:1.30067
+[20]	eval-mlogloss:1.27956
+[21]	eval-mlogloss:1.25622
+[22]	eval-mlogloss:1.23453
+[23]	eval-mlogloss:1.21150
+[24]	eval-mlogloss:1.19271
+[25]	eval-mlogloss:1.17182
+[26]	eval-mlogloss:1.15492
+[27]	eval-mlogloss:1.13560
+[28]	eval-mlogloss:1.12150
+[29]	eval-mlogloss:1.10528
+[30]	eval-mlogloss:1.08735
+[31]	eval-mlogloss:1.07108
+[32]	eval-mlogloss:1.05829
+[33]	eval-mlogloss:1.04428
+[34]	eval-mlogloss:1.03054
+[35]	eval-mlogloss:1.01641
+[36]	eval-mlogloss:1.00499
+[37]	eval-mlogloss:0.99176
+[38]	eval-mlogloss:0.97948
+[39]	eval-mlogloss:0.96877
+[40]	eval-mlogloss:0.95899
+[41]	eval-mlogloss:0.94807
+[42]	eval-mlogloss:0.93771
+[43]	eval-mlogloss:0.92738
+[44]	eval-mlogloss:0.91595
+[45]	eval-mlogloss:0.90659
+[46]	eval-mlogloss:0.89735
+[47]	eval-mlogloss:0.89062
+[48]	eval-mlogloss:0.88186
+[49]	eval-mlogloss:0.87343
+Accuracy score is 0.7491617770326907
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.61      0.71      1142
+           1       0.93      0.70      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.54      0.94      0.69      1234
+    accuracy                           0.75      4772
+   macro avg       0.82      0.75      0.76      4772
+weighted avg       0.82      0.75      0.76      4772
+[12:14:59] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11657
+[1]	eval-mlogloss:2.04384
+[2]	eval-mlogloss:1.96983
+[3]	eval-mlogloss:1.90705
+[4]	eval-mlogloss:1.83603
+[5]	eval-mlogloss:1.78381
+[6]	eval-mlogloss:1.74036
+[7]	eval-mlogloss:1.69385
+[8]	eval-mlogloss:1.65582
+[9]	eval-mlogloss:1.61950
+[10]	eval-mlogloss:1.58746
+[11]	eval-mlogloss:1.54884
+[12]	eval-mlogloss:1.51091
+[13]	eval-mlogloss:1.47781
+[14]	eval-mlogloss:1.44737
+[15]	eval-mlogloss:1.42082
+[16]	eval-mlogloss:1.39096
+[17]	eval-mlogloss:1.36149
+[18]	eval-mlogloss:1.33225
+[19]	eval-mlogloss:1.30460
+[20]	eval-mlogloss:1.28341
+[21]	eval-mlogloss:1.26010
+[22]	eval-mlogloss:1.23829
+[23]	eval-mlogloss:1.21520
+[24]	eval-mlogloss:1.19627
+[25]	eval-mlogloss:1.17531
+[26]	eval-mlogloss:1.15866
+[27]	eval-mlogloss:1.13966
+[28]	eval-mlogloss:1.12580
+[29]	eval-mlogloss:1.10963
+[30]	eval-mlogloss:1.09177
+[31]	eval-mlogloss:1.07567
+[32]	eval-mlogloss:1.06300
+[33]	eval-mlogloss:1.04913
+[34]	eval-mlogloss:1.03562
+[35]	eval-mlogloss:1.02145
+[36]	eval-mlogloss:1.01013
+[37]	eval-mlogloss:0.99697
+[38]	eval-mlogloss:0.98502
+[39]	eval-mlogloss:0.97464
+[40]	eval-mlogloss:0.96493
+[41]	eval-mlogloss:0.95420
+[42]	eval-mlogloss:0.94396
+[43]	eval-mlogloss:0.93367
+[44]	eval-mlogloss:0.92239
+[45]	eval-mlogloss:0.91318
+[46]	eval-mlogloss:0.90411
+[47]	eval-mlogloss:0.89748
+[48]	eval-mlogloss:0.88889
+[49]	eval-mlogloss:0.88041
+Accuracy score is 0.7400964158457346
+model saved to XGBoost_data/xgb_model_0.75.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.57      0.69      1224
+           1       0.95      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.50      0.97      0.66      1146
+    accuracy                           0.74      4771
+   macro avg       0.83      0.74      0.75      4771
+weighted avg       0.84      0.74      0.75      4771
+[12:15:08] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11401
+[1]	eval-mlogloss:2.03933
+[2]	eval-mlogloss:1.96457
+[3]	eval-mlogloss:1.90003
+[4]	eval-mlogloss:1.82776
+[5]	eval-mlogloss:1.77388
+[6]	eval-mlogloss:1.72915
+[7]	eval-mlogloss:1.68141
+[8]	eval-mlogloss:1.64269
+[9]	eval-mlogloss:1.60568
+[10]	eval-mlogloss:1.57263
+[11]	eval-mlogloss:1.53340
+[12]	eval-mlogloss:1.49471
+[13]	eval-mlogloss:1.46082
+[14]	eval-mlogloss:1.42968
+[15]	eval-mlogloss:1.40244
+[16]	eval-mlogloss:1.37194
+[17]	eval-mlogloss:1.34213
+[18]	eval-mlogloss:1.31190
+[19]	eval-mlogloss:1.28356
+[20]	eval-mlogloss:1.26192
+[21]	eval-mlogloss:1.23790
+[22]	eval-mlogloss:1.21567
+[23]	eval-mlogloss:1.19207
+[24]	eval-mlogloss:1.17272
+[25]	eval-mlogloss:1.15107
+[26]	eval-mlogloss:1.13393
+[27]	eval-mlogloss:1.11408
+[28]	eval-mlogloss:1.10010
+[29]	eval-mlogloss:1.08345
+[30]	eval-mlogloss:1.06520
+[31]	eval-mlogloss:1.04867
+[32]	eval-mlogloss:1.03584
+[33]	eval-mlogloss:1.02167
+[34]	eval-mlogloss:1.00769
+[35]	eval-mlogloss:0.99324
+[36]	eval-mlogloss:0.98162
+[37]	eval-mlogloss:0.96803
+[38]	eval-mlogloss:0.95580
+[39]	eval-mlogloss:0.94471
+[40]	eval-mlogloss:0.93466
+[41]	eval-mlogloss:0.92371
+[42]	eval-mlogloss:0.91316
+[43]	eval-mlogloss:0.90246
+[44]	eval-mlogloss:0.89076
+[45]	eval-mlogloss:0.88120
+[46]	eval-mlogloss:0.87196
+[47]	eval-mlogloss:0.86541
+[48]	eval-mlogloss:0.85632
+[49]	eval-mlogloss:0.84776
+Accuracy score is 0.7600083839865857
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.87      0.60      0.71      1257
+           1       0.93      0.73      0.82      1151
+           2       1.00      0.75      0.86      1163
+           3       0.54      0.96      0.69      1200
+    accuracy                           0.76      4771
+   macro avg       0.84      0.76      0.77      4771
+weighted avg       0.83      0.76      0.77      4771
+[12:15:16] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11457
+[1]	eval-mlogloss:2.03932
+[2]	eval-mlogloss:1.96298
+[3]	eval-mlogloss:1.89877
+[4]	eval-mlogloss:1.82612
+[5]	eval-mlogloss:1.77244
+[6]	eval-mlogloss:1.72816
+[7]	eval-mlogloss:1.68055
+[8]	eval-mlogloss:1.64176
+[9]	eval-mlogloss:1.60446
+[10]	eval-mlogloss:1.57167
+[11]	eval-mlogloss:1.53217
+[12]	eval-mlogloss:1.49307
+[13]	eval-mlogloss:1.45919
+[14]	eval-mlogloss:1.42785
+[15]	eval-mlogloss:1.40070
+[16]	eval-mlogloss:1.37018
+[17]	eval-mlogloss:1.34000
+[18]	eval-mlogloss:1.30967
+[19]	eval-mlogloss:1.28108
+[20]	eval-mlogloss:1.25941
+[21]	eval-mlogloss:1.23569
+[22]	eval-mlogloss:1.21351
+[23]	eval-mlogloss:1.18995
+[24]	eval-mlogloss:1.17045
+[25]	eval-mlogloss:1.14871
+[26]	eval-mlogloss:1.13172
+[27]	eval-mlogloss:1.11197
+[28]	eval-mlogloss:1.09776
+[29]	eval-mlogloss:1.08111
+[30]	eval-mlogloss:1.06290
+[31]	eval-mlogloss:1.04635
+[32]	eval-mlogloss:1.03347
+[33]	eval-mlogloss:1.01919
+[34]	eval-mlogloss:1.00512
+[35]	eval-mlogloss:0.99055
+[36]	eval-mlogloss:0.97897
+[37]	eval-mlogloss:0.96521
+[38]	eval-mlogloss:0.95284
+[39]	eval-mlogloss:0.94181
+[40]	eval-mlogloss:0.93190
+[41]	eval-mlogloss:0.92102
+[42]	eval-mlogloss:0.91048
+[43]	eval-mlogloss:0.90006
+[44]	eval-mlogloss:0.88846
+[45]	eval-mlogloss:0.87913
+[46]	eval-mlogloss:0.86973
+[47]	eval-mlogloss:0.86326
+[48]	eval-mlogloss:0.85414
+[49]	eval-mlogloss:0.84563
+Accuracy score is 0.7635715782854747
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.84      0.61      0.71      1188
+           1       0.93      0.72      0.81      1209
+           2       0.99      0.77      0.87      1187
+           3       0.55      0.95      0.69      1187
+    accuracy                           0.76      4771
+   macro avg       0.83      0.76      0.77      4771
+weighted avg       0.83      0.76      0.77      4771
+[12:15:21] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11581
+[1]	eval-mlogloss:2.04268
+[2]	eval-mlogloss:1.96783
+[3]	eval-mlogloss:1.90414
+[4]	eval-mlogloss:1.83259
+[5]	eval-mlogloss:1.77960
+[6]	eval-mlogloss:1.73525
+[7]	eval-mlogloss:1.68820
+[8]	eval-mlogloss:1.64957
+[9]	eval-mlogloss:1.61255
+[10]	eval-mlogloss:1.57971
+[11]	eval-mlogloss:1.54103
+[12]	eval-mlogloss:1.50288
+[13]	eval-mlogloss:1.46914
+[14]	eval-mlogloss:1.43831
+[15]	eval-mlogloss:1.41146
+[16]	eval-mlogloss:1.38122
+[17]	eval-mlogloss:1.35184
+[18]	eval-mlogloss:1.32218
+[19]	eval-mlogloss:1.29404
+[20]	eval-mlogloss:1.27268
+[21]	eval-mlogloss:1.24905
+[22]	eval-mlogloss:1.22707
+[23]	eval-mlogloss:1.20369
+[24]	eval-mlogloss:1.18461
+[25]	eval-mlogloss:1.16335
+[26]	eval-mlogloss:1.14624
+[27]	eval-mlogloss:1.12682
+[28]	eval-mlogloss:1.11296
+[29]	eval-mlogloss:1.09653
+[30]	eval-mlogloss:1.07868
+[31]	eval-mlogloss:1.06234
+[32]	eval-mlogloss:1.04978
+[33]	eval-mlogloss:1.03596
+[34]	eval-mlogloss:1.02223
+[35]	eval-mlogloss:1.00791
+[36]	eval-mlogloss:0.99666
+[37]	eval-mlogloss:0.98335
+[38]	eval-mlogloss:0.97119
+[39]	eval-mlogloss:0.96051
+[40]	eval-mlogloss:0.95068
+[41]	eval-mlogloss:0.93999
+[42]	eval-mlogloss:0.92941
+[43]	eval-mlogloss:0.91891
+[44]	eval-mlogloss:0.90758
+[45]	eval-mlogloss:0.89821
+[46]	eval-mlogloss:0.88898
+[47]	eval-mlogloss:0.88249
+[48]	eval-mlogloss:0.87370
+[49]	eval-mlogloss:0.86529
+Accuracy score is 0.7560259903584154
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.88      0.59      0.71      1185
+           1       0.93      0.70      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.54      0.97      0.70      1229
+    accuracy                           0.76      4771
+   macro avg       0.84      0.75      0.77      4771
+weighted avg       0.83      0.76      0.76      4771
+avg macro_F1_metric: 0.764 8
+[12:15:27] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11473
+[1]	eval-mlogloss:2.04203
+[2]	eval-mlogloss:1.96776
+[3]	eval-mlogloss:1.90531
+[4]	eval-mlogloss:1.83400
+[5]	eval-mlogloss:1.78044
+[6]	eval-mlogloss:1.73606
+[7]	eval-mlogloss:1.68893
+[8]	eval-mlogloss:1.65007
+[9]	eval-mlogloss:1.61368
+[10]	eval-mlogloss:1.58089
+[11]	eval-mlogloss:1.54222
+[12]	eval-mlogloss:1.50434
+[13]	eval-mlogloss:1.47095
+[14]	eval-mlogloss:1.43980
+[15]	eval-mlogloss:1.41261
+[16]	eval-mlogloss:1.38294
+[17]	eval-mlogloss:1.35346
+[18]	eval-mlogloss:1.32410
+[19]	eval-mlogloss:1.29632
+[20]	eval-mlogloss:1.27501
+[21]	eval-mlogloss:1.25154
+[22]	eval-mlogloss:1.22973
+[23]	eval-mlogloss:1.20646
+[24]	eval-mlogloss:1.18766
+[25]	eval-mlogloss:1.16659
+[26]	eval-mlogloss:1.14950
+[27]	eval-mlogloss:1.13008
+[28]	eval-mlogloss:1.11568
+[29]	eval-mlogloss:1.09934
+[30]	eval-mlogloss:1.08127
+[31]	eval-mlogloss:1.06477
+[32]	eval-mlogloss:1.05183
+[33]	eval-mlogloss:1.03779
+[34]	eval-mlogloss:1.02392
+[35]	eval-mlogloss:1.00971
+[36]	eval-mlogloss:0.99810
+[37]	eval-mlogloss:0.98475
+[38]	eval-mlogloss:0.97234
+[39]	eval-mlogloss:0.96157
+[40]	eval-mlogloss:0.95173
+[41]	eval-mlogloss:0.94057
+[42]	eval-mlogloss:0.93007
+[43]	eval-mlogloss:0.91970
+[44]	eval-mlogloss:0.90815
+[45]	eval-mlogloss:0.89877
+[46]	eval-mlogloss:0.88945
+[47]	eval-mlogloss:0.88265
+[48]	eval-mlogloss:0.87377
+[49]	eval-mlogloss:0.86531
+Accuracy score is 0.7537720033528919
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.63      0.72      1142
+           1       0.93      0.70      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.55      0.94      0.69      1234
+    accuracy                           0.75      4772
+   macro avg       0.83      0.75      0.76      4772
+weighted avg       0.82      0.75      0.76      4772
+[12:15:32] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11625
+[1]	eval-mlogloss:2.04326
+[2]	eval-mlogloss:1.96887
+[3]	eval-mlogloss:1.90573
+[4]	eval-mlogloss:1.83457
+[5]	eval-mlogloss:1.78211
+[6]	eval-mlogloss:1.73827
+[7]	eval-mlogloss:1.69161
+[8]	eval-mlogloss:1.65343
+[9]	eval-mlogloss:1.61713
+[10]	eval-mlogloss:1.58497
+[11]	eval-mlogloss:1.54606
+[12]	eval-mlogloss:1.50791
+[13]	eval-mlogloss:1.47464
+[14]	eval-mlogloss:1.44405
+[15]	eval-mlogloss:1.41741
+[16]	eval-mlogloss:1.38743
+[17]	eval-mlogloss:1.35774
+[18]	eval-mlogloss:1.32839
+[19]	eval-mlogloss:1.30053
+[20]	eval-mlogloss:1.27911
+[21]	eval-mlogloss:1.25557
+[22]	eval-mlogloss:1.23357
+[23]	eval-mlogloss:1.21049
+[24]	eval-mlogloss:1.19152
+[25]	eval-mlogloss:1.17022
+[26]	eval-mlogloss:1.15337
+[27]	eval-mlogloss:1.13431
+[28]	eval-mlogloss:1.12018
+[29]	eval-mlogloss:1.10386
+[30]	eval-mlogloss:1.08587
+[31]	eval-mlogloss:1.06956
+[32]	eval-mlogloss:1.05703
+[33]	eval-mlogloss:1.04316
+[34]	eval-mlogloss:1.02956
+[35]	eval-mlogloss:1.01527
+[36]	eval-mlogloss:1.00378
+[37]	eval-mlogloss:0.99048
+[38]	eval-mlogloss:0.97842
+[39]	eval-mlogloss:0.96782
+[40]	eval-mlogloss:0.95813
+[41]	eval-mlogloss:0.94732
+[42]	eval-mlogloss:0.93699
+[43]	eval-mlogloss:0.92661
+[44]	eval-mlogloss:0.91516
+[45]	eval-mlogloss:0.90577
+[46]	eval-mlogloss:0.89669
+[47]	eval-mlogloss:0.89001
+[48]	eval-mlogloss:0.88133
+[49]	eval-mlogloss:0.87282
+Accuracy score is 0.7482708027667155
+model saved to XGBoost_data/xgb_model_0.76.pkl
+              precision    recall  f1-score   support
+           0       0.87      0.60      0.71      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.51      0.97      0.67      1146
+    accuracy                           0.75      4771
+   macro avg       0.83      0.75      0.76      4771
+weighted avg       0.84      0.75      0.76      4771
+[12:15:37] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11371
+[1]	eval-mlogloss:2.03886
+[2]	eval-mlogloss:1.96380
+[3]	eval-mlogloss:1.89895
+[4]	eval-mlogloss:1.82663
+[5]	eval-mlogloss:1.77259
+[6]	eval-mlogloss:1.72752
+[7]	eval-mlogloss:1.67965
+[8]	eval-mlogloss:1.64070
+[9]	eval-mlogloss:1.60347
+[10]	eval-mlogloss:1.57010
+[11]	eval-mlogloss:1.53061
+[12]	eval-mlogloss:1.49168
+[13]	eval-mlogloss:1.45768
+[14]	eval-mlogloss:1.42623
+[15]	eval-mlogloss:1.39864
+[16]	eval-mlogloss:1.36798
+[17]	eval-mlogloss:1.33810
+[18]	eval-mlogloss:1.30780
+[19]	eval-mlogloss:1.27944
+[20]	eval-mlogloss:1.25757
+[21]	eval-mlogloss:1.23354
+[22]	eval-mlogloss:1.21107
+[23]	eval-mlogloss:1.18735
+[24]	eval-mlogloss:1.16780
+[25]	eval-mlogloss:1.14609
+[26]	eval-mlogloss:1.12881
+[27]	eval-mlogloss:1.10892
+[28]	eval-mlogloss:1.09473
+[29]	eval-mlogloss:1.07796
+[30]	eval-mlogloss:1.05960
+[31]	eval-mlogloss:1.04312
+[32]	eval-mlogloss:1.03000
+[33]	eval-mlogloss:1.01574
+[34]	eval-mlogloss:1.00169
+[35]	eval-mlogloss:0.98726
+[36]	eval-mlogloss:0.97547
+[37]	eval-mlogloss:0.96178
+[38]	eval-mlogloss:0.94944
+[39]	eval-mlogloss:0.93841
+[40]	eval-mlogloss:0.92820
+[41]	eval-mlogloss:0.91718
+[42]	eval-mlogloss:0.90667
+[43]	eval-mlogloss:0.89585
+[44]	eval-mlogloss:0.88412
+[45]	eval-mlogloss:0.87445
+[46]	eval-mlogloss:0.86504
+[47]	eval-mlogloss:0.85831
+[48]	eval-mlogloss:0.84928
+[49]	eval-mlogloss:0.84065
+Accuracy score is 0.7635715782854747
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.62      0.72      1257
+           1       0.93      0.73      0.82      1151
+           2       1.00      0.76      0.86      1163
+           3       0.55      0.95      0.70      1200
+    accuracy                           0.76      4771
+   macro avg       0.83      0.76      0.77      4771
+weighted avg       0.83      0.76      0.77      4771
+[12:15:42] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11448
+[1]	eval-mlogloss:2.03897
+[2]	eval-mlogloss:1.96249
+[3]	eval-mlogloss:1.89795
+[4]	eval-mlogloss:1.82517
+[5]	eval-mlogloss:1.77140
+[6]	eval-mlogloss:1.72679
+[7]	eval-mlogloss:1.67912
+[8]	eval-mlogloss:1.64004
+[9]	eval-mlogloss:1.60248
+[10]	eval-mlogloss:1.56930
+[11]	eval-mlogloss:1.52955
+[12]	eval-mlogloss:1.49022
+[13]	eval-mlogloss:1.45602
+[14]	eval-mlogloss:1.42456
+[15]	eval-mlogloss:1.39730
+[16]	eval-mlogloss:1.36654
+[17]	eval-mlogloss:1.33617
+[18]	eval-mlogloss:1.30567
+[19]	eval-mlogloss:1.27687
+[20]	eval-mlogloss:1.25484
+[21]	eval-mlogloss:1.23092
+[22]	eval-mlogloss:1.20851
+[23]	eval-mlogloss:1.18485
+[24]	eval-mlogloss:1.16522
+[25]	eval-mlogloss:1.14344
+[26]	eval-mlogloss:1.12608
+[27]	eval-mlogloss:1.10625
+[28]	eval-mlogloss:1.09192
+[29]	eval-mlogloss:1.07519
+[30]	eval-mlogloss:1.05697
+[31]	eval-mlogloss:1.04048
+[32]	eval-mlogloss:1.02729
+[33]	eval-mlogloss:1.01292
+[34]	eval-mlogloss:0.99870
+[35]	eval-mlogloss:0.98408
+[36]	eval-mlogloss:0.97247
+[37]	eval-mlogloss:0.95866
+[38]	eval-mlogloss:0.94610
+[39]	eval-mlogloss:0.93511
+[40]	eval-mlogloss:0.92508
+[41]	eval-mlogloss:0.91413
+[42]	eval-mlogloss:0.90348
+[43]	eval-mlogloss:0.89309
+[44]	eval-mlogloss:0.88126
+[45]	eval-mlogloss:0.87168
+[46]	eval-mlogloss:0.86222
+[47]	eval-mlogloss:0.85558
+[48]	eval-mlogloss:0.84630
+[49]	eval-mlogloss:0.83763
+Accuracy score is 0.7677635715782855
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.84      0.63      0.72      1188
+           1       0.93      0.72      0.82      1209
+           2       0.99      0.77      0.87      1187
+           3       0.56      0.94      0.70      1187
+    accuracy                           0.77      4771
+   macro avg       0.83      0.77      0.78      4771
+weighted avg       0.83      0.77      0.78      4771
+[12:15:47] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11566
+[1]	eval-mlogloss:2.04230
+[2]	eval-mlogloss:1.96706
+[3]	eval-mlogloss:1.90300
+[4]	eval-mlogloss:1.83131
+[5]	eval-mlogloss:1.77805
+[6]	eval-mlogloss:1.73355
+[7]	eval-mlogloss:1.68607
+[8]	eval-mlogloss:1.64709
+[9]	eval-mlogloss:1.60999
+[10]	eval-mlogloss:1.57687
+[11]	eval-mlogloss:1.53807
+[12]	eval-mlogloss:1.49965
+[13]	eval-mlogloss:1.46583
+[14]	eval-mlogloss:1.43479
+[15]	eval-mlogloss:1.40782
+[16]	eval-mlogloss:1.37749
+[17]	eval-mlogloss:1.34790
+[18]	eval-mlogloss:1.31817
+[19]	eval-mlogloss:1.28999
+[20]	eval-mlogloss:1.26866
+[21]	eval-mlogloss:1.24496
+[22]	eval-mlogloss:1.22266
+[23]	eval-mlogloss:1.19929
+[24]	eval-mlogloss:1.18005
+[25]	eval-mlogloss:1.15866
+[26]	eval-mlogloss:1.14140
+[27]	eval-mlogloss:1.12204
+[28]	eval-mlogloss:1.10789
+[29]	eval-mlogloss:1.09133
+[30]	eval-mlogloss:1.07325
+[31]	eval-mlogloss:1.05681
+[32]	eval-mlogloss:1.04410
+[33]	eval-mlogloss:1.03008
+[34]	eval-mlogloss:1.01630
+[35]	eval-mlogloss:1.00188
+[36]	eval-mlogloss:0.99049
+[37]	eval-mlogloss:0.97710
+[38]	eval-mlogloss:0.96474
+[39]	eval-mlogloss:0.95405
+[40]	eval-mlogloss:0.94413
+[41]	eval-mlogloss:0.93328
+[42]	eval-mlogloss:0.92257
+[43]	eval-mlogloss:0.91185
+[44]	eval-mlogloss:0.90044
+[45]	eval-mlogloss:0.89096
+[46]	eval-mlogloss:0.88154
+[47]	eval-mlogloss:0.87496
+[48]	eval-mlogloss:0.86617
+[49]	eval-mlogloss:0.85768
+Accuracy score is 0.7606371829805072
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.87      0.62      0.72      1185
+           1       0.93      0.70      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.55      0.96      0.70      1229
+    accuracy                           0.76      4771
+   macro avg       0.84      0.76      0.77      4771
+weighted avg       0.83      0.76      0.77      4771
+avg macro_F1_metric: 0.768 9
+[12:15:52] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11442
+[1]	eval-mlogloss:2.04158
+[2]	eval-mlogloss:1.96720
+[3]	eval-mlogloss:1.90434
+[4]	eval-mlogloss:1.83295
+[5]	eval-mlogloss:1.77919
+[6]	eval-mlogloss:1.73462
+[7]	eval-mlogloss:1.68731
+[8]	eval-mlogloss:1.64822
+[9]	eval-mlogloss:1.61132
+[10]	eval-mlogloss:1.57819
+[11]	eval-mlogloss:1.53928
+[12]	eval-mlogloss:1.50117
+[13]	eval-mlogloss:1.46757
+[14]	eval-mlogloss:1.43641
+[15]	eval-mlogloss:1.40925
+[16]	eval-mlogloss:1.37941
+[17]	eval-mlogloss:1.34965
+[18]	eval-mlogloss:1.32006
+[19]	eval-mlogloss:1.29226
+[20]	eval-mlogloss:1.27059
+[21]	eval-mlogloss:1.24702
+[22]	eval-mlogloss:1.22510
+[23]	eval-mlogloss:1.20190
+[24]	eval-mlogloss:1.18296
+[25]	eval-mlogloss:1.16184
+[26]	eval-mlogloss:1.14484
+[27]	eval-mlogloss:1.12542
+[28]	eval-mlogloss:1.11087
+[29]	eval-mlogloss:1.09435
+[30]	eval-mlogloss:1.07609
+[31]	eval-mlogloss:1.05954
+[32]	eval-mlogloss:1.04652
+[33]	eval-mlogloss:1.03246
+[34]	eval-mlogloss:1.01862
+[35]	eval-mlogloss:1.00429
+[36]	eval-mlogloss:0.99259
+[37]	eval-mlogloss:0.97910
+[38]	eval-mlogloss:0.96686
+[39]	eval-mlogloss:0.95596
+[40]	eval-mlogloss:0.94591
+[41]	eval-mlogloss:0.93472
+[42]	eval-mlogloss:0.92418
+[43]	eval-mlogloss:0.91372
+[44]	eval-mlogloss:0.90219
+[45]	eval-mlogloss:0.89282
+[46]	eval-mlogloss:0.88332
+[47]	eval-mlogloss:0.87645
+[48]	eval-mlogloss:0.86735
+[49]	eval-mlogloss:0.85877
+Accuracy score is 0.7638306789606035
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.84      0.66      0.74      1142
+           1       0.93      0.70      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.56      0.94      0.70      1234
+    accuracy                           0.76      4772
+   macro avg       0.83      0.76      0.77      4772
+weighted avg       0.83      0.76      0.77      4772
+[12:15:57] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11600
+[1]	eval-mlogloss:2.04286
+[2]	eval-mlogloss:1.96832
+[3]	eval-mlogloss:1.90493
+[4]	eval-mlogloss:1.83364
+[5]	eval-mlogloss:1.78101
+[6]	eval-mlogloss:1.73686
+[7]	eval-mlogloss:1.69010
+[8]	eval-mlogloss:1.65189
+[9]	eval-mlogloss:1.61528
+[10]	eval-mlogloss:1.58278
+[11]	eval-mlogloss:1.54363
+[12]	eval-mlogloss:1.50531
+[13]	eval-mlogloss:1.47178
+[14]	eval-mlogloss:1.44091
+[15]	eval-mlogloss:1.41408
+[16]	eval-mlogloss:1.38397
+[17]	eval-mlogloss:1.35412
+[18]	eval-mlogloss:1.32448
+[19]	eval-mlogloss:1.29653
+[20]	eval-mlogloss:1.27510
+[21]	eval-mlogloss:1.25158
+[22]	eval-mlogloss:1.22933
+[23]	eval-mlogloss:1.20602
+[24]	eval-mlogloss:1.18674
+[25]	eval-mlogloss:1.16542
+[26]	eval-mlogloss:1.14852
+[27]	eval-mlogloss:1.12930
+[28]	eval-mlogloss:1.11508
+[29]	eval-mlogloss:1.09864
+[30]	eval-mlogloss:1.08059
+[31]	eval-mlogloss:1.06422
+[32]	eval-mlogloss:1.05125
+[33]	eval-mlogloss:1.03723
+[34]	eval-mlogloss:1.02355
+[35]	eval-mlogloss:1.00916
+[36]	eval-mlogloss:0.99759
+[37]	eval-mlogloss:0.98430
+[38]	eval-mlogloss:0.97218
+[39]	eval-mlogloss:0.96135
+[40]	eval-mlogloss:0.95147
+[41]	eval-mlogloss:0.94048
+[42]	eval-mlogloss:0.93007
+[43]	eval-mlogloss:0.91953
+[44]	eval-mlogloss:0.90800
+[45]	eval-mlogloss:0.89854
+[46]	eval-mlogloss:0.88937
+[47]	eval-mlogloss:0.88260
+[48]	eval-mlogloss:0.87393
+[49]	eval-mlogloss:0.86524
+Accuracy score is 0.7539299937120101
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.63      0.73      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.52      0.96      0.68      1146
+    accuracy                           0.75      4771
+   macro avg       0.83      0.76      0.77      4771
+weighted avg       0.84      0.75      0.77      4771
+[12:16:02] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11360
+[1]	eval-mlogloss:2.03850
+[2]	eval-mlogloss:1.96317
+[3]	eval-mlogloss:1.89818
+[4]	eval-mlogloss:1.82577
+[5]	eval-mlogloss:1.77153
+[6]	eval-mlogloss:1.72619
+[7]	eval-mlogloss:1.67802
+[8]	eval-mlogloss:1.63891
+[9]	eval-mlogloss:1.60136
+[10]	eval-mlogloss:1.56794
+[11]	eval-mlogloss:1.52817
+[12]	eval-mlogloss:1.48901
+[13]	eval-mlogloss:1.45463
+[14]	eval-mlogloss:1.42291
+[15]	eval-mlogloss:1.39506
+[16]	eval-mlogloss:1.36428
+[17]	eval-mlogloss:1.33424
+[18]	eval-mlogloss:1.30367
+[19]	eval-mlogloss:1.27529
+[20]	eval-mlogloss:1.25339
+[21]	eval-mlogloss:1.22915
+[22]	eval-mlogloss:1.20655
+[23]	eval-mlogloss:1.18273
+[24]	eval-mlogloss:1.16297
+[25]	eval-mlogloss:1.14123
+[26]	eval-mlogloss:1.12366
+[27]	eval-mlogloss:1.10371
+[28]	eval-mlogloss:1.08926
+[29]	eval-mlogloss:1.07240
+[30]	eval-mlogloss:1.05376
+[31]	eval-mlogloss:1.03702
+[32]	eval-mlogloss:1.02384
+[33]	eval-mlogloss:1.00952
+[34]	eval-mlogloss:0.99540
+[35]	eval-mlogloss:0.98088
+[36]	eval-mlogloss:0.96892
+[37]	eval-mlogloss:0.95497
+[38]	eval-mlogloss:0.94257
+[39]	eval-mlogloss:0.93127
+[40]	eval-mlogloss:0.92103
+[41]	eval-mlogloss:0.90971
+[42]	eval-mlogloss:0.89905
+[43]	eval-mlogloss:0.88808
+[44]	eval-mlogloss:0.87623
+[45]	eval-mlogloss:0.86649
+[46]	eval-mlogloss:0.85710
+[47]	eval-mlogloss:0.85020
+[48]	eval-mlogloss:0.84096
+[49]	eval-mlogloss:0.83221
+Accuracy score is 0.7700691678893313
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.65      0.74      1257
+           1       0.94      0.73      0.82      1151
+           2       0.99      0.76      0.86      1163
+           3       0.56      0.94      0.70      1200
+    accuracy                           0.77      4771
+   macro avg       0.83      0.77      0.78      4771
+weighted avg       0.83      0.77      0.78      4771
+[12:16:07] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11438
+[1]	eval-mlogloss:2.03852
+[2]	eval-mlogloss:1.96179
+[3]	eval-mlogloss:1.89698
+[4]	eval-mlogloss:1.82408
+[5]	eval-mlogloss:1.77026
+[6]	eval-mlogloss:1.72527
+[7]	eval-mlogloss:1.67748
+[8]	eval-mlogloss:1.63809
+[9]	eval-mlogloss:1.60044
+[10]	eval-mlogloss:1.56705
+[11]	eval-mlogloss:1.52717
+[12]	eval-mlogloss:1.48780
+[13]	eval-mlogloss:1.45347
+[14]	eval-mlogloss:1.42185
+[15]	eval-mlogloss:1.39431
+[16]	eval-mlogloss:1.36351
+[17]	eval-mlogloss:1.33310
+[18]	eval-mlogloss:1.30237
+[19]	eval-mlogloss:1.27342
+[20]	eval-mlogloss:1.25136
+[21]	eval-mlogloss:1.22730
+[22]	eval-mlogloss:1.20478
+[23]	eval-mlogloss:1.18108
+[24]	eval-mlogloss:1.16138
+[25]	eval-mlogloss:1.13939
+[26]	eval-mlogloss:1.12196
+[27]	eval-mlogloss:1.10197
+[28]	eval-mlogloss:1.08758
+[29]	eval-mlogloss:1.07079
+[30]	eval-mlogloss:1.05251
+[31]	eval-mlogloss:1.03593
+[32]	eval-mlogloss:1.02258
+[33]	eval-mlogloss:1.00815
+[34]	eval-mlogloss:0.99382
+[35]	eval-mlogloss:0.97903
+[36]	eval-mlogloss:0.96718
+[37]	eval-mlogloss:0.95323
+[38]	eval-mlogloss:0.94078
+[39]	eval-mlogloss:0.92973
+[40]	eval-mlogloss:0.91963
+[41]	eval-mlogloss:0.90839
+[42]	eval-mlogloss:0.89767
+[43]	eval-mlogloss:0.88712
+[44]	eval-mlogloss:0.87513
+[45]	eval-mlogloss:0.86556
+[46]	eval-mlogloss:0.85595
+[47]	eval-mlogloss:0.84914
+[48]	eval-mlogloss:0.84010
+[49]	eval-mlogloss:0.83139
+Accuracy score is 0.7767763571578286
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.67      0.74      1188
+           1       0.93      0.72      0.82      1209
+           2       0.99      0.77      0.87      1187
+           3       0.57      0.94      0.71      1187
+    accuracy                           0.78      4771
+   macro avg       0.83      0.78      0.78      4771
+weighted avg       0.83      0.78      0.79      4771
+[12:16:13] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11521
+[1]	eval-mlogloss:2.04170
+[2]	eval-mlogloss:1.96619
+[3]	eval-mlogloss:1.90183
+[4]	eval-mlogloss:1.82998
+[5]	eval-mlogloss:1.77651
+[6]	eval-mlogloss:1.73151
+[7]	eval-mlogloss:1.68375
+[8]	eval-mlogloss:1.64443
+[9]	eval-mlogloss:1.60719
+[10]	eval-mlogloss:1.57392
+[11]	eval-mlogloss:1.53491
+[12]	eval-mlogloss:1.49657
+[13]	eval-mlogloss:1.46262
+[14]	eval-mlogloss:1.43129
+[15]	eval-mlogloss:1.40423
+[16]	eval-mlogloss:1.37394
+[17]	eval-mlogloss:1.34410
+[18]	eval-mlogloss:1.31435
+[19]	eval-mlogloss:1.28606
+[20]	eval-mlogloss:1.26460
+[21]	eval-mlogloss:1.24079
+[22]	eval-mlogloss:1.21830
+[23]	eval-mlogloss:1.19484
+[24]	eval-mlogloss:1.17531
+[25]	eval-mlogloss:1.15396
+[26]	eval-mlogloss:1.13637
+[27]	eval-mlogloss:1.11666
+[28]	eval-mlogloss:1.10251
+[29]	eval-mlogloss:1.08586
+[30]	eval-mlogloss:1.06767
+[31]	eval-mlogloss:1.05136
+[32]	eval-mlogloss:1.03839
+[33]	eval-mlogloss:1.02422
+[34]	eval-mlogloss:1.01045
+[35]	eval-mlogloss:0.99602
+[36]	eval-mlogloss:0.98458
+[37]	eval-mlogloss:0.97097
+[38]	eval-mlogloss:0.95846
+[39]	eval-mlogloss:0.94759
+[40]	eval-mlogloss:0.93753
+[41]	eval-mlogloss:0.92644
+[42]	eval-mlogloss:0.91566
+[43]	eval-mlogloss:0.90484
+[44]	eval-mlogloss:0.89337
+[45]	eval-mlogloss:0.88374
+[46]	eval-mlogloss:0.87411
+[47]	eval-mlogloss:0.86740
+[48]	eval-mlogloss:0.85850
+[49]	eval-mlogloss:0.84997
+Accuracy score is 0.7658771745965206
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.64      0.74      1185
+           1       0.93      0.70      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.56      0.96      0.70      1229
+    accuracy                           0.77      4771
+   macro avg       0.84      0.76      0.78      4771
+weighted avg       0.83      0.77      0.77      4771
+avg macro_F1_metric: 0.7760000000000001 10
+[12:16:18] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11413
+[1]	eval-mlogloss:2.04109
+[2]	eval-mlogloss:1.96664
+[3]	eval-mlogloss:1.90344
+[4]	eval-mlogloss:1.83199
+[5]	eval-mlogloss:1.77823
+[6]	eval-mlogloss:1.73341
+[7]	eval-mlogloss:1.68600
+[8]	eval-mlogloss:1.64659
+[9]	eval-mlogloss:1.60969
+[10]	eval-mlogloss:1.57648
+[11]	eval-mlogloss:1.53740
+[12]	eval-mlogloss:1.49922
+[13]	eval-mlogloss:1.46543
+[14]	eval-mlogloss:1.43413
+[15]	eval-mlogloss:1.40678
+[16]	eval-mlogloss:1.37696
+[17]	eval-mlogloss:1.34706
+[18]	eval-mlogloss:1.31743
+[19]	eval-mlogloss:1.28937
+[20]	eval-mlogloss:1.26765
+[21]	eval-mlogloss:1.24395
+[22]	eval-mlogloss:1.22187
+[23]	eval-mlogloss:1.19852
+[24]	eval-mlogloss:1.17942
+[25]	eval-mlogloss:1.15818
+[26]	eval-mlogloss:1.14088
+[27]	eval-mlogloss:1.12138
+[28]	eval-mlogloss:1.10685
+[29]	eval-mlogloss:1.09027
+[30]	eval-mlogloss:1.07179
+[31]	eval-mlogloss:1.05507
+[32]	eval-mlogloss:1.04190
+[33]	eval-mlogloss:1.02767
+[34]	eval-mlogloss:1.01369
+[35]	eval-mlogloss:0.99936
+[36]	eval-mlogloss:0.98745
+[37]	eval-mlogloss:0.97382
+[38]	eval-mlogloss:0.96152
+[39]	eval-mlogloss:0.95054
+[40]	eval-mlogloss:0.94033
+[41]	eval-mlogloss:0.92905
+[42]	eval-mlogloss:0.91849
+[43]	eval-mlogloss:0.90787
+[44]	eval-mlogloss:0.89616
+[45]	eval-mlogloss:0.88669
+[46]	eval-mlogloss:0.87711
+[47]	eval-mlogloss:0.87015
+[48]	eval-mlogloss:0.86114
+[49]	eval-mlogloss:0.85237
+Accuracy score is 0.7646689019279128
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.82      0.68      0.74      1142
+           1       0.93      0.71      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.56      0.93      0.70      1234
+    accuracy                           0.76      4772
+   macro avg       0.83      0.76      0.77      4772
+weighted avg       0.83      0.76      0.77      4772
+[12:16:24] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11590
+[1]	eval-mlogloss:2.04263
+[2]	eval-mlogloss:1.96823
+[3]	eval-mlogloss:1.90473
+[4]	eval-mlogloss:1.83334
+[5]	eval-mlogloss:1.78062
+[6]	eval-mlogloss:1.73638
+[7]	eval-mlogloss:1.68923
+[8]	eval-mlogloss:1.65073
+[9]	eval-mlogloss:1.61394
+[10]	eval-mlogloss:1.58132
+[11]	eval-mlogloss:1.54210
+[12]	eval-mlogloss:1.50360
+[13]	eval-mlogloss:1.47006
+[14]	eval-mlogloss:1.43905
+[15]	eval-mlogloss:1.41196
+[16]	eval-mlogloss:1.38177
+[17]	eval-mlogloss:1.35206
+[18]	eval-mlogloss:1.32241
+[19]	eval-mlogloss:1.29435
+[20]	eval-mlogloss:1.27284
+[21]	eval-mlogloss:1.24913
+[22]	eval-mlogloss:1.22664
+[23]	eval-mlogloss:1.20321
+[24]	eval-mlogloss:1.18369
+[25]	eval-mlogloss:1.16217
+[26]	eval-mlogloss:1.14509
+[27]	eval-mlogloss:1.12569
+[28]	eval-mlogloss:1.11146
+[29]	eval-mlogloss:1.09506
+[30]	eval-mlogloss:1.07695
+[31]	eval-mlogloss:1.06048
+[32]	eval-mlogloss:1.04730
+[33]	eval-mlogloss:1.03300
+[34]	eval-mlogloss:1.01928
+[35]	eval-mlogloss:1.00474
+[36]	eval-mlogloss:0.99297
+[37]	eval-mlogloss:0.97947
+[38]	eval-mlogloss:0.96717
+[39]	eval-mlogloss:0.95618
+[40]	eval-mlogloss:0.94619
+[41]	eval-mlogloss:0.93514
+[42]	eval-mlogloss:0.92467
+[43]	eval-mlogloss:0.91397
+[44]	eval-mlogloss:0.90236
+[45]	eval-mlogloss:0.89283
+[46]	eval-mlogloss:0.88358
+[47]	eval-mlogloss:0.87686
+[48]	eval-mlogloss:0.86785
+[49]	eval-mlogloss:0.85906
+Accuracy score is 0.7581219870048208
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.87      0.65      0.74      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.53      0.95      0.68      1146
+    accuracy                           0.76      4771
+   macro avg       0.84      0.76      0.77      4771
+weighted avg       0.84      0.76      0.77      4771
+[12:16:29] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11316
+[1]	eval-mlogloss:2.03786
+[2]	eval-mlogloss:1.96237
+[3]	eval-mlogloss:1.89729
+[4]	eval-mlogloss:1.82484
+[5]	eval-mlogloss:1.77034
+[6]	eval-mlogloss:1.72467
+[7]	eval-mlogloss:1.67629
+[8]	eval-mlogloss:1.63701
+[9]	eval-mlogloss:1.59951
+[10]	eval-mlogloss:1.56600
+[11]	eval-mlogloss:1.52612
+[12]	eval-mlogloss:1.48688
+[13]	eval-mlogloss:1.45261
+[14]	eval-mlogloss:1.42098
+[15]	eval-mlogloss:1.39310
+[16]	eval-mlogloss:1.36234
+[17]	eval-mlogloss:1.33220
+[18]	eval-mlogloss:1.30169
+[19]	eval-mlogloss:1.27322
+[20]	eval-mlogloss:1.25098
+[21]	eval-mlogloss:1.22671
+[22]	eval-mlogloss:1.20392
+[23]	eval-mlogloss:1.17998
+[24]	eval-mlogloss:1.16023
+[25]	eval-mlogloss:1.13844
+[26]	eval-mlogloss:1.12084
+[27]	eval-mlogloss:1.10081
+[28]	eval-mlogloss:1.08600
+[29]	eval-mlogloss:1.06900
+[30]	eval-mlogloss:1.05024
+[31]	eval-mlogloss:1.03346
+[32]	eval-mlogloss:1.02003
+[33]	eval-mlogloss:1.00569
+[34]	eval-mlogloss:0.99147
+[35]	eval-mlogloss:0.97687
+[36]	eval-mlogloss:0.96483
+[37]	eval-mlogloss:0.95077
+[38]	eval-mlogloss:0.93819
+[39]	eval-mlogloss:0.92670
+[40]	eval-mlogloss:0.91631
+[41]	eval-mlogloss:0.90499
+[42]	eval-mlogloss:0.89428
+[43]	eval-mlogloss:0.88316
+[44]	eval-mlogloss:0.87121
+[45]	eval-mlogloss:0.86133
+[46]	eval-mlogloss:0.85162
+[47]	eval-mlogloss:0.84470
+[48]	eval-mlogloss:0.83528
+[49]	eval-mlogloss:0.82649
+Accuracy score is 0.7736323621882205
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.66      0.74      1257
+           1       0.94      0.73      0.82      1151
+           2       0.99      0.76      0.86      1163
+           3       0.57      0.94      0.71      1200
+    accuracy                           0.77      4771
+   macro avg       0.84      0.77      0.78      4771
+weighted avg       0.83      0.77      0.78      4771
+[12:16:34] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11418
+[1]	eval-mlogloss:2.03813
+[2]	eval-mlogloss:1.96121
+[3]	eval-mlogloss:1.89604
+[4]	eval-mlogloss:1.82280
+[5]	eval-mlogloss:1.76890
+[6]	eval-mlogloss:1.72372
+[7]	eval-mlogloss:1.67568
+[8]	eval-mlogloss:1.63621
+[9]	eval-mlogloss:1.59844
+[10]	eval-mlogloss:1.56472
+[11]	eval-mlogloss:1.52478
+[12]	eval-mlogloss:1.48537
+[13]	eval-mlogloss:1.45082
+[14]	eval-mlogloss:1.41909
+[15]	eval-mlogloss:1.39140
+[16]	eval-mlogloss:1.36062
+[17]	eval-mlogloss:1.33014
+[18]	eval-mlogloss:1.29919
+[19]	eval-mlogloss:1.27011
+[20]	eval-mlogloss:1.24778
+[21]	eval-mlogloss:1.22379
+[22]	eval-mlogloss:1.20111
+[23]	eval-mlogloss:1.17742
+[24]	eval-mlogloss:1.15768
+[25]	eval-mlogloss:1.13560
+[26]	eval-mlogloss:1.11802
+[27]	eval-mlogloss:1.09798
+[28]	eval-mlogloss:1.08338
+[29]	eval-mlogloss:1.06645
+[30]	eval-mlogloss:1.04808
+[31]	eval-mlogloss:1.03138
+[32]	eval-mlogloss:1.01790
+[33]	eval-mlogloss:1.00343
+[34]	eval-mlogloss:0.98910
+[35]	eval-mlogloss:0.97435
+[36]	eval-mlogloss:0.96238
+[37]	eval-mlogloss:0.94834
+[38]	eval-mlogloss:0.93573
+[39]	eval-mlogloss:0.92467
+[40]	eval-mlogloss:0.91440
+[41]	eval-mlogloss:0.90320
+[42]	eval-mlogloss:0.89244
+[43]	eval-mlogloss:0.88189
+[44]	eval-mlogloss:0.87000
+[45]	eval-mlogloss:0.86042
+[46]	eval-mlogloss:0.85074
+[47]	eval-mlogloss:0.84388
+[48]	eval-mlogloss:0.83461
+[49]	eval-mlogloss:0.82596
+Accuracy score is 0.7774051561517502
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.67      0.74      1188
+           1       0.93      0.73      0.82      1209
+           2       0.99      0.77      0.87      1187
+           3       0.57      0.94      0.71      1187
+    accuracy                           0.78      4771
+   macro avg       0.83      0.78      0.79      4771
+weighted avg       0.83      0.78      0.79      4771
+[12:16:40] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11493
+[1]	eval-mlogloss:2.04121
+[2]	eval-mlogloss:1.96571
+[3]	eval-mlogloss:1.90102
+[4]	eval-mlogloss:1.82906
+[5]	eval-mlogloss:1.77531
+[6]	eval-mlogloss:1.73007
+[7]	eval-mlogloss:1.68240
+[8]	eval-mlogloss:1.64307
+[9]	eval-mlogloss:1.60552
+[10]	eval-mlogloss:1.57205
+[11]	eval-mlogloss:1.53276
+[12]	eval-mlogloss:1.49407
+[13]	eval-mlogloss:1.46000
+[14]	eval-mlogloss:1.42863
+[15]	eval-mlogloss:1.40118
+[16]	eval-mlogloss:1.37086
+[17]	eval-mlogloss:1.34099
+[18]	eval-mlogloss:1.31113
+[19]	eval-mlogloss:1.28278
+[20]	eval-mlogloss:1.26130
+[21]	eval-mlogloss:1.23740
+[22]	eval-mlogloss:1.21489
+[23]	eval-mlogloss:1.19128
+[24]	eval-mlogloss:1.17153
+[25]	eval-mlogloss:1.15000
+[26]	eval-mlogloss:1.13230
+[27]	eval-mlogloss:1.11246
+[28]	eval-mlogloss:1.09799
+[29]	eval-mlogloss:1.08125
+[30]	eval-mlogloss:1.06300
+[31]	eval-mlogloss:1.04656
+[32]	eval-mlogloss:1.03346
+[33]	eval-mlogloss:1.01928
+[34]	eval-mlogloss:1.00545
+[35]	eval-mlogloss:0.99090
+[36]	eval-mlogloss:0.97935
+[37]	eval-mlogloss:0.96579
+[38]	eval-mlogloss:0.95318
+[39]	eval-mlogloss:0.94227
+[40]	eval-mlogloss:0.93210
+[41]	eval-mlogloss:0.92085
+[42]	eval-mlogloss:0.90995
+[43]	eval-mlogloss:0.89913
+[44]	eval-mlogloss:0.88758
+[45]	eval-mlogloss:0.87795
+[46]	eval-mlogloss:0.86827
+[47]	eval-mlogloss:0.86155
+[48]	eval-mlogloss:0.85249
+[49]	eval-mlogloss:0.84403
+Accuracy score is 0.7696499685600503
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.66      0.75      1185
+           1       0.93      0.70      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.56      0.95      0.71      1229
+    accuracy                           0.77      4771
+   macro avg       0.84      0.77      0.78      4771
+weighted avg       0.83      0.77      0.78      4771
+avg macro_F1_metric: 0.7780000000000001 11
+[12:16:45] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11409
+[1]	eval-mlogloss:2.04096
+[2]	eval-mlogloss:1.96644
+[3]	eval-mlogloss:1.90304
+[4]	eval-mlogloss:1.83146
+[5]	eval-mlogloss:1.77768
+[6]	eval-mlogloss:1.73249
+[7]	eval-mlogloss:1.68483
+[8]	eval-mlogloss:1.64534
+[9]	eval-mlogloss:1.60832
+[10]	eval-mlogloss:1.57516
+[11]	eval-mlogloss:1.53611
+[12]	eval-mlogloss:1.49780
+[13]	eval-mlogloss:1.46410
+[14]	eval-mlogloss:1.43249
+[15]	eval-mlogloss:1.40513
+[16]	eval-mlogloss:1.37522
+[17]	eval-mlogloss:1.34545
+[18]	eval-mlogloss:1.31575
+[19]	eval-mlogloss:1.28754
+[20]	eval-mlogloss:1.26560
+[21]	eval-mlogloss:1.24189
+[22]	eval-mlogloss:1.21967
+[23]	eval-mlogloss:1.19623
+[24]	eval-mlogloss:1.17698
+[25]	eval-mlogloss:1.15565
+[26]	eval-mlogloss:1.13818
+[27]	eval-mlogloss:1.11858
+[28]	eval-mlogloss:1.10394
+[29]	eval-mlogloss:1.08715
+[30]	eval-mlogloss:1.06881
+[31]	eval-mlogloss:1.05198
+[32]	eval-mlogloss:1.03862
+[33]	eval-mlogloss:1.02440
+[34]	eval-mlogloss:1.01033
+[35]	eval-mlogloss:0.99583
+[36]	eval-mlogloss:0.98383
+[37]	eval-mlogloss:0.97019
+[38]	eval-mlogloss:0.95782
+[39]	eval-mlogloss:0.94696
+[40]	eval-mlogloss:0.93666
+[41]	eval-mlogloss:0.92551
+[42]	eval-mlogloss:0.91486
+[43]	eval-mlogloss:0.90423
+[44]	eval-mlogloss:0.89255
+[45]	eval-mlogloss:0.88311
+[46]	eval-mlogloss:0.87341
+[47]	eval-mlogloss:0.86642
+[48]	eval-mlogloss:0.85714
+[49]	eval-mlogloss:0.84828
+Accuracy score is 0.7680217937971501
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.69      0.75      1142
+           1       0.93      0.71      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.57      0.94      0.71      1234
+    accuracy                           0.77      4772
+   macro avg       0.83      0.77      0.78      4772
+weighted avg       0.83      0.77      0.78      4772
+[12:16:51] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11567
+[1]	eval-mlogloss:2.04238
+[2]	eval-mlogloss:1.96783
+[3]	eval-mlogloss:1.90417
+[4]	eval-mlogloss:1.83273
+[5]	eval-mlogloss:1.77997
+[6]	eval-mlogloss:1.73558
+[7]	eval-mlogloss:1.68852
+[8]	eval-mlogloss:1.64985
+[9]	eval-mlogloss:1.61313
+[10]	eval-mlogloss:1.58038
+[11]	eval-mlogloss:1.54116
+[12]	eval-mlogloss:1.50251
+[13]	eval-mlogloss:1.46875
+[14]	eval-mlogloss:1.43763
+[15]	eval-mlogloss:1.41071
+[16]	eval-mlogloss:1.38055
+[17]	eval-mlogloss:1.35067
+[18]	eval-mlogloss:1.32096
+[19]	eval-mlogloss:1.29290
+[20]	eval-mlogloss:1.27132
+[21]	eval-mlogloss:1.24737
+[22]	eval-mlogloss:1.22469
+[23]	eval-mlogloss:1.20120
+[24]	eval-mlogloss:1.18178
+[25]	eval-mlogloss:1.16032
+[26]	eval-mlogloss:1.14315
+[27]	eval-mlogloss:1.12358
+[28]	eval-mlogloss:1.10915
+[29]	eval-mlogloss:1.09242
+[30]	eval-mlogloss:1.07425
+[31]	eval-mlogloss:1.05770
+[32]	eval-mlogloss:1.04452
+[33]	eval-mlogloss:1.03012
+[34]	eval-mlogloss:1.01626
+[35]	eval-mlogloss:1.00162
+[36]	eval-mlogloss:0.98972
+[37]	eval-mlogloss:0.97612
+[38]	eval-mlogloss:0.96380
+[39]	eval-mlogloss:0.95276
+[40]	eval-mlogloss:0.94263
+[41]	eval-mlogloss:0.93148
+[42]	eval-mlogloss:0.92093
+[43]	eval-mlogloss:0.91029
+[44]	eval-mlogloss:0.89853
+[45]	eval-mlogloss:0.88862
+[46]	eval-mlogloss:0.87941
+[47]	eval-mlogloss:0.87241
+[48]	eval-mlogloss:0.86349
+[49]	eval-mlogloss:0.85454
+Accuracy score is 0.762104380632991
+model saved to XGBoost_data/xgb_model_0.77.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.67      0.75      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.53      0.95      0.68      1146
+    accuracy                           0.76      4771
+   macro avg       0.83      0.77      0.77      4771
+weighted avg       0.84      0.76      0.77      4771
+[12:16:56] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11306
+[1]	eval-mlogloss:2.03754
+[2]	eval-mlogloss:1.96189
+[3]	eval-mlogloss:1.89668
+[4]	eval-mlogloss:1.82416
+[5]	eval-mlogloss:1.76943
+[6]	eval-mlogloss:1.72377
+[7]	eval-mlogloss:1.67530
+[8]	eval-mlogloss:1.63585
+[9]	eval-mlogloss:1.59831
+[10]	eval-mlogloss:1.56466
+[11]	eval-mlogloss:1.52480
+[12]	eval-mlogloss:1.48537
+[13]	eval-mlogloss:1.45097
+[14]	eval-mlogloss:1.41906
+[15]	eval-mlogloss:1.39099
+[16]	eval-mlogloss:1.36015
+[17]	eval-mlogloss:1.32986
+[18]	eval-mlogloss:1.29921
+[19]	eval-mlogloss:1.27057
+[20]	eval-mlogloss:1.24848
+[21]	eval-mlogloss:1.22412
+[22]	eval-mlogloss:1.20124
+[23]	eval-mlogloss:1.17735
+[24]	eval-mlogloss:1.15752
+[25]	eval-mlogloss:1.13552
+[26]	eval-mlogloss:1.11775
+[27]	eval-mlogloss:1.09744
+[28]	eval-mlogloss:1.08268
+[29]	eval-mlogloss:1.06561
+[30]	eval-mlogloss:1.04685
+[31]	eval-mlogloss:1.02990
+[32]	eval-mlogloss:1.01627
+[33]	eval-mlogloss:1.00175
+[34]	eval-mlogloss:0.98749
+[35]	eval-mlogloss:0.97274
+[36]	eval-mlogloss:0.96059
+[37]	eval-mlogloss:0.94641
+[38]	eval-mlogloss:0.93378
+[39]	eval-mlogloss:0.92247
+[40]	eval-mlogloss:0.91191
+[41]	eval-mlogloss:0.90053
+[42]	eval-mlogloss:0.88961
+[43]	eval-mlogloss:0.87844
+[44]	eval-mlogloss:0.86643
+[45]	eval-mlogloss:0.85629
+[46]	eval-mlogloss:0.84655
+[47]	eval-mlogloss:0.83949
+[48]	eval-mlogloss:0.83012
+[49]	eval-mlogloss:0.82120
+Accuracy score is 0.7799203521274366
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.68      0.76      1257
+           1       0.94      0.73      0.82      1151
+           2       0.99      0.76      0.86      1163
+           3       0.57      0.94      0.71      1200
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.79      4771
+[12:17:02] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11404
+[1]	eval-mlogloss:2.03790
+[2]	eval-mlogloss:1.96097
+[3]	eval-mlogloss:1.89566
+[4]	eval-mlogloss:1.82250
+[5]	eval-mlogloss:1.76833
+[6]	eval-mlogloss:1.72296
+[7]	eval-mlogloss:1.67482
+[8]	eval-mlogloss:1.63531
+[9]	eval-mlogloss:1.59736
+[10]	eval-mlogloss:1.56373
+[11]	eval-mlogloss:1.52349
+[12]	eval-mlogloss:1.48404
+[13]	eval-mlogloss:1.44940
+[14]	eval-mlogloss:1.41728
+[15]	eval-mlogloss:1.38965
+[16]	eval-mlogloss:1.35881
+[17]	eval-mlogloss:1.32831
+[18]	eval-mlogloss:1.29745
+[19]	eval-mlogloss:1.26834
+[20]	eval-mlogloss:1.24598
+[21]	eval-mlogloss:1.22187
+[22]	eval-mlogloss:1.19893
+[23]	eval-mlogloss:1.17502
+[24]	eval-mlogloss:1.15521
+[25]	eval-mlogloss:1.13324
+[26]	eval-mlogloss:1.11576
+[27]	eval-mlogloss:1.09565
+[28]	eval-mlogloss:1.08105
+[29]	eval-mlogloss:1.06395
+[30]	eval-mlogloss:1.04556
+[31]	eval-mlogloss:1.02857
+[32]	eval-mlogloss:1.01499
+[33]	eval-mlogloss:1.00040
+[34]	eval-mlogloss:0.98615
+[35]	eval-mlogloss:0.97122
+[36]	eval-mlogloss:0.95920
+[37]	eval-mlogloss:0.94513
+[38]	eval-mlogloss:0.93249
+[39]	eval-mlogloss:0.92134
+[40]	eval-mlogloss:0.91092
+[41]	eval-mlogloss:0.89957
+[42]	eval-mlogloss:0.88883
+[43]	eval-mlogloss:0.87814
+[44]	eval-mlogloss:0.86594
+[45]	eval-mlogloss:0.85627
+[46]	eval-mlogloss:0.84650
+[47]	eval-mlogloss:0.83960
+[48]	eval-mlogloss:0.83023
+[49]	eval-mlogloss:0.82144
+Accuracy score is 0.7843219450848878
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.70      0.76      1188
+           1       0.94      0.73      0.82      1209
+           2       0.99      0.78      0.87      1187
+           3       0.58      0.93      0.71      1187
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.79      4771
+[12:17:08] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11477
+[1]	eval-mlogloss:2.04095
+[2]	eval-mlogloss:1.96529
+[3]	eval-mlogloss:1.90043
+[4]	eval-mlogloss:1.82840
+[5]	eval-mlogloss:1.77462
+[6]	eval-mlogloss:1.72934
+[7]	eval-mlogloss:1.68138
+[8]	eval-mlogloss:1.64195
+[9]	eval-mlogloss:1.60410
+[10]	eval-mlogloss:1.57056
+[11]	eval-mlogloss:1.53127
+[12]	eval-mlogloss:1.49241
+[13]	eval-mlogloss:1.45825
+[14]	eval-mlogloss:1.42670
+[15]	eval-mlogloss:1.39919
+[16]	eval-mlogloss:1.36885
+[17]	eval-mlogloss:1.33888
+[18]	eval-mlogloss:1.30895
+[19]	eval-mlogloss:1.28052
+[20]	eval-mlogloss:1.25906
+[21]	eval-mlogloss:1.23504
+[22]	eval-mlogloss:1.21223
+[23]	eval-mlogloss:1.18849
+[24]	eval-mlogloss:1.16868
+[25]	eval-mlogloss:1.14703
+[26]	eval-mlogloss:1.12924
+[27]	eval-mlogloss:1.10947
+[28]	eval-mlogloss:1.09482
+[29]	eval-mlogloss:1.07793
+[30]	eval-mlogloss:1.05950
+[31]	eval-mlogloss:1.04308
+[32]	eval-mlogloss:1.02984
+[33]	eval-mlogloss:1.01542
+[34]	eval-mlogloss:1.00146
+[35]	eval-mlogloss:0.98677
+[36]	eval-mlogloss:0.97527
+[37]	eval-mlogloss:0.96152
+[38]	eval-mlogloss:0.94871
+[39]	eval-mlogloss:0.93766
+[40]	eval-mlogloss:0.92736
+[41]	eval-mlogloss:0.91613
+[42]	eval-mlogloss:0.90514
+[43]	eval-mlogloss:0.89423
+[44]	eval-mlogloss:0.88253
+[45]	eval-mlogloss:0.87278
+[46]	eval-mlogloss:0.86295
+[47]	eval-mlogloss:0.85610
+[48]	eval-mlogloss:0.84704
+[49]	eval-mlogloss:0.83846
+Accuracy score is 0.7769859568224691
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.68      0.76      1185
+           1       0.94      0.71      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.58      0.96      0.72      1229
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.78      4771
+avg macro_F1_metric: 0.784 12
+[12:17:14] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11399
+[1]	eval-mlogloss:2.04076
+[2]	eval-mlogloss:1.96612
+[3]	eval-mlogloss:1.90261
+[4]	eval-mlogloss:1.83088
+[5]	eval-mlogloss:1.77699
+[6]	eval-mlogloss:1.73164
+[7]	eval-mlogloss:1.68388
+[8]	eval-mlogloss:1.64442
+[9]	eval-mlogloss:1.60733
+[10]	eval-mlogloss:1.57398
+[11]	eval-mlogloss:1.53491
+[12]	eval-mlogloss:1.49653
+[13]	eval-mlogloss:1.46263
+[14]	eval-mlogloss:1.43083
+[15]	eval-mlogloss:1.40324
+[16]	eval-mlogloss:1.37328
+[17]	eval-mlogloss:1.34334
+[18]	eval-mlogloss:1.31369
+[19]	eval-mlogloss:1.28537
+[20]	eval-mlogloss:1.26364
+[21]	eval-mlogloss:1.23976
+[22]	eval-mlogloss:1.21753
+[23]	eval-mlogloss:1.19413
+[24]	eval-mlogloss:1.17498
+[25]	eval-mlogloss:1.15352
+[26]	eval-mlogloss:1.13603
+[27]	eval-mlogloss:1.11637
+[28]	eval-mlogloss:1.10159
+[29]	eval-mlogloss:1.08483
+[30]	eval-mlogloss:1.06629
+[31]	eval-mlogloss:1.04949
+[32]	eval-mlogloss:1.03615
+[33]	eval-mlogloss:1.02176
+[34]	eval-mlogloss:1.00744
+[35]	eval-mlogloss:0.99291
+[36]	eval-mlogloss:0.98091
+[37]	eval-mlogloss:0.96731
+[38]	eval-mlogloss:0.95469
+[39]	eval-mlogloss:0.94363
+[40]	eval-mlogloss:0.93329
+[41]	eval-mlogloss:0.92200
+[42]	eval-mlogloss:0.91107
+[43]	eval-mlogloss:0.90041
+[44]	eval-mlogloss:0.88866
+[45]	eval-mlogloss:0.87885
+[46]	eval-mlogloss:0.86914
+[47]	eval-mlogloss:0.86196
+[48]	eval-mlogloss:0.85268
+[49]	eval-mlogloss:0.84390
+Accuracy score is 0.7703269069572506
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.82      0.70      0.76      1142
+           1       0.93      0.71      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.57      0.93      0.71      1234
+    accuracy                           0.77      4772
+   macro avg       0.83      0.77      0.78      4772
+weighted avg       0.83      0.77      0.78      4772
+[12:17:22] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11552
+[1]	eval-mlogloss:2.04224
+[2]	eval-mlogloss:1.96766
+[3]	eval-mlogloss:1.90384
+[4]	eval-mlogloss:1.83229
+[5]	eval-mlogloss:1.77936
+[6]	eval-mlogloss:1.73465
+[7]	eval-mlogloss:1.68756
+[8]	eval-mlogloss:1.64878
+[9]	eval-mlogloss:1.61200
+[10]	eval-mlogloss:1.57911
+[11]	eval-mlogloss:1.53999
+[12]	eval-mlogloss:1.50126
+[13]	eval-mlogloss:1.46766
+[14]	eval-mlogloss:1.43627
+[15]	eval-mlogloss:1.40902
+[16]	eval-mlogloss:1.37868
+[17]	eval-mlogloss:1.34876
+[18]	eval-mlogloss:1.31910
+[19]	eval-mlogloss:1.29104
+[20]	eval-mlogloss:1.26930
+[21]	eval-mlogloss:1.24529
+[22]	eval-mlogloss:1.22263
+[23]	eval-mlogloss:1.19906
+[24]	eval-mlogloss:1.17959
+[25]	eval-mlogloss:1.15791
+[26]	eval-mlogloss:1.14091
+[27]	eval-mlogloss:1.12128
+[28]	eval-mlogloss:1.10670
+[29]	eval-mlogloss:1.08997
+[30]	eval-mlogloss:1.07199
+[31]	eval-mlogloss:1.05532
+[32]	eval-mlogloss:1.04213
+[33]	eval-mlogloss:1.02768
+[34]	eval-mlogloss:1.01369
+[35]	eval-mlogloss:0.99892
+[36]	eval-mlogloss:0.98686
+[37]	eval-mlogloss:0.97322
+[38]	eval-mlogloss:0.96080
+[39]	eval-mlogloss:0.94973
+[40]	eval-mlogloss:0.93941
+[41]	eval-mlogloss:0.92822
+[42]	eval-mlogloss:0.91750
+[43]	eval-mlogloss:0.90681
+[44]	eval-mlogloss:0.89497
+[45]	eval-mlogloss:0.88504
+[46]	eval-mlogloss:0.87567
+[47]	eval-mlogloss:0.86863
+[48]	eval-mlogloss:0.85957
+[49]	eval-mlogloss:0.85054
+Accuracy score is 0.7658771745965206
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.87      0.68      0.76      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.54      0.95      0.69      1146
+    accuracy                           0.77      4771
+   macro avg       0.84      0.77      0.78      4771
+weighted avg       0.84      0.77      0.78      4771
+[12:17:27] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11297
+[1]	eval-mlogloss:2.03736
+[2]	eval-mlogloss:1.96172
+[3]	eval-mlogloss:1.89636
+[4]	eval-mlogloss:1.82380
+[5]	eval-mlogloss:1.76904
+[6]	eval-mlogloss:1.72326
+[7]	eval-mlogloss:1.67475
+[8]	eval-mlogloss:1.63538
+[9]	eval-mlogloss:1.59775
+[10]	eval-mlogloss:1.56389
+[11]	eval-mlogloss:1.52397
+[12]	eval-mlogloss:1.48428
+[13]	eval-mlogloss:1.44965
+[14]	eval-mlogloss:1.41757
+[15]	eval-mlogloss:1.38934
+[16]	eval-mlogloss:1.35838
+[17]	eval-mlogloss:1.32801
+[18]	eval-mlogloss:1.29733
+[19]	eval-mlogloss:1.26866
+[20]	eval-mlogloss:1.24652
+[21]	eval-mlogloss:1.22210
+[22]	eval-mlogloss:1.19928
+[23]	eval-mlogloss:1.17521
+[24]	eval-mlogloss:1.15541
+[25]	eval-mlogloss:1.13337
+[26]	eval-mlogloss:1.11557
+[27]	eval-mlogloss:1.09528
+[28]	eval-mlogloss:1.08048
+[29]	eval-mlogloss:1.06336
+[30]	eval-mlogloss:1.04455
+[31]	eval-mlogloss:1.02763
+[32]	eval-mlogloss:1.01382
+[33]	eval-mlogloss:0.99911
+[34]	eval-mlogloss:0.98482
+[35]	eval-mlogloss:0.97001
+[36]	eval-mlogloss:0.95771
+[37]	eval-mlogloss:0.94350
+[38]	eval-mlogloss:0.93071
+[39]	eval-mlogloss:0.91914
+[40]	eval-mlogloss:0.90886
+[41]	eval-mlogloss:0.89743
+[42]	eval-mlogloss:0.88662
+[43]	eval-mlogloss:0.87533
+[44]	eval-mlogloss:0.86334
+[45]	eval-mlogloss:0.85318
+[46]	eval-mlogloss:0.84347
+[47]	eval-mlogloss:0.83621
+[48]	eval-mlogloss:0.82695
+[49]	eval-mlogloss:0.81792
+Accuracy score is 0.7809683504506393
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.69      0.76      1257
+           1       0.93      0.73      0.82      1151
+           2       0.99      0.76      0.86      1163
+           3       0.58      0.94      0.72      1200
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.79      4771
+[12:17:33] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11400
+[1]	eval-mlogloss:2.03769
+[2]	eval-mlogloss:1.96061
+[3]	eval-mlogloss:1.89529
+[4]	eval-mlogloss:1.82216
+[5]	eval-mlogloss:1.76786
+[6]	eval-mlogloss:1.72228
+[7]	eval-mlogloss:1.67410
+[8]	eval-mlogloss:1.63452
+[9]	eval-mlogloss:1.59647
+[10]	eval-mlogloss:1.56279
+[11]	eval-mlogloss:1.52248
+[12]	eval-mlogloss:1.48297
+[13]	eval-mlogloss:1.44834
+[14]	eval-mlogloss:1.41631
+[15]	eval-mlogloss:1.38856
+[16]	eval-mlogloss:1.35763
+[17]	eval-mlogloss:1.32700
+[18]	eval-mlogloss:1.29587
+[19]	eval-mlogloss:1.26665
+[20]	eval-mlogloss:1.24420
+[21]	eval-mlogloss:1.22005
+[22]	eval-mlogloss:1.19714
+[23]	eval-mlogloss:1.17326
+[24]	eval-mlogloss:1.15348
+[25]	eval-mlogloss:1.13132
+[26]	eval-mlogloss:1.11393
+[27]	eval-mlogloss:1.09375
+[28]	eval-mlogloss:1.07894
+[29]	eval-mlogloss:1.06169
+[30]	eval-mlogloss:1.04322
+[31]	eval-mlogloss:1.02634
+[32]	eval-mlogloss:1.01268
+[33]	eval-mlogloss:0.99803
+[34]	eval-mlogloss:0.98369
+[35]	eval-mlogloss:0.96875
+[36]	eval-mlogloss:0.95664
+[37]	eval-mlogloss:0.94274
+[38]	eval-mlogloss:0.93009
+[39]	eval-mlogloss:0.91885
+[40]	eval-mlogloss:0.90823
+[41]	eval-mlogloss:0.89676
+[42]	eval-mlogloss:0.88580
+[43]	eval-mlogloss:0.87506
+[44]	eval-mlogloss:0.86286
+[45]	eval-mlogloss:0.85298
+[46]	eval-mlogloss:0.84315
+[47]	eval-mlogloss:0.83621
+[48]	eval-mlogloss:0.82685
+[49]	eval-mlogloss:0.81798
+Accuracy score is 0.7887235380423391
+model saved to XGBoost_data/xgb_model_0.8.pkl
+              precision    recall  f1-score   support
+           0       0.83      0.71      0.77      1188
+           1       0.94      0.73      0.82      1209
+           2       0.99      0.78      0.87      1187
+           3       0.59      0.93      0.72      1187
+    accuracy                           0.79      4771
+   macro avg       0.84      0.79      0.80      4771
+weighted avg       0.84      0.79      0.80      4771
+[12:17:38] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11463
+[1]	eval-mlogloss:2.04072
+[2]	eval-mlogloss:1.96510
+[3]	eval-mlogloss:1.90019
+[4]	eval-mlogloss:1.82792
+[5]	eval-mlogloss:1.77405
+[6]	eval-mlogloss:1.72864
+[7]	eval-mlogloss:1.68070
+[8]	eval-mlogloss:1.64113
+[9]	eval-mlogloss:1.60332
+[10]	eval-mlogloss:1.56973
+[11]	eval-mlogloss:1.53028
+[12]	eval-mlogloss:1.49140
+[13]	eval-mlogloss:1.45716
+[14]	eval-mlogloss:1.42540
+[15]	eval-mlogloss:1.39783
+[16]	eval-mlogloss:1.36741
+[17]	eval-mlogloss:1.33739
+[18]	eval-mlogloss:1.30739
+[19]	eval-mlogloss:1.27872
+[20]	eval-mlogloss:1.25709
+[21]	eval-mlogloss:1.23310
+[22]	eval-mlogloss:1.21027
+[23]	eval-mlogloss:1.18653
+[24]	eval-mlogloss:1.16660
+[25]	eval-mlogloss:1.14491
+[26]	eval-mlogloss:1.12722
+[27]	eval-mlogloss:1.10722
+[28]	eval-mlogloss:1.09248
+[29]	eval-mlogloss:1.07559
+[30]	eval-mlogloss:1.05718
+[31]	eval-mlogloss:1.04067
+[32]	eval-mlogloss:1.02731
+[33]	eval-mlogloss:1.01277
+[34]	eval-mlogloss:0.99875
+[35]	eval-mlogloss:0.98407
+[36]	eval-mlogloss:0.97250
+[37]	eval-mlogloss:0.95871
+[38]	eval-mlogloss:0.94598
+[39]	eval-mlogloss:0.93476
+[40]	eval-mlogloss:0.92431
+[41]	eval-mlogloss:0.91308
+[42]	eval-mlogloss:0.90194
+[43]	eval-mlogloss:0.89091
+[44]	eval-mlogloss:0.87921
+[45]	eval-mlogloss:0.86944
+[46]	eval-mlogloss:0.85957
+[47]	eval-mlogloss:0.85253
+[48]	eval-mlogloss:0.84352
+[49]	eval-mlogloss:0.83496
+Accuracy score is 0.7778243554810312
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.69      0.76      1185
+           1       0.93      0.71      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.58      0.95      0.72      1229
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.79      4771
+avg macro_F1_metric: 0.788 13
+[12:17:44] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11401
+[1]	eval-mlogloss:2.04072
+[2]	eval-mlogloss:1.96603
+[3]	eval-mlogloss:1.90250
+[4]	eval-mlogloss:1.83084
+[5]	eval-mlogloss:1.77698
+[6]	eval-mlogloss:1.73162
+[7]	eval-mlogloss:1.68365
+[8]	eval-mlogloss:1.64403
+[9]	eval-mlogloss:1.60695
+[10]	eval-mlogloss:1.57340
+[11]	eval-mlogloss:1.53412
+[12]	eval-mlogloss:1.49551
+[13]	eval-mlogloss:1.46166
+[14]	eval-mlogloss:1.42971
+[15]	eval-mlogloss:1.40203
+[16]	eval-mlogloss:1.37189
+[17]	eval-mlogloss:1.34181
+[18]	eval-mlogloss:1.31206
+[19]	eval-mlogloss:1.28370
+[20]	eval-mlogloss:1.26202
+[21]	eval-mlogloss:1.23814
+[22]	eval-mlogloss:1.21576
+[23]	eval-mlogloss:1.19224
+[24]	eval-mlogloss:1.17308
+[25]	eval-mlogloss:1.15133
+[26]	eval-mlogloss:1.13374
+[27]	eval-mlogloss:1.11399
+[28]	eval-mlogloss:1.09916
+[29]	eval-mlogloss:1.08215
+[30]	eval-mlogloss:1.06374
+[31]	eval-mlogloss:1.04698
+[32]	eval-mlogloss:1.03353
+[33]	eval-mlogloss:1.01901
+[34]	eval-mlogloss:1.00478
+[35]	eval-mlogloss:0.99015
+[36]	eval-mlogloss:0.97815
+[37]	eval-mlogloss:0.96430
+[38]	eval-mlogloss:0.95177
+[39]	eval-mlogloss:0.94073
+[40]	eval-mlogloss:0.93027
+[41]	eval-mlogloss:0.91888
+[42]	eval-mlogloss:0.90800
+[43]	eval-mlogloss:0.89733
+[44]	eval-mlogloss:0.88544
+[45]	eval-mlogloss:0.87571
+[46]	eval-mlogloss:0.86603
+[47]	eval-mlogloss:0.85876
+[48]	eval-mlogloss:0.84938
+[49]	eval-mlogloss:0.84035
+Accuracy score is 0.7738893545683152
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.82      0.71      0.76      1142
+           1       0.93      0.71      0.80      1181
+           2       1.00      0.73      0.84      1215
+           3       0.58      0.93      0.71      1234
+    accuracy                           0.77      4772
+   macro avg       0.83      0.77      0.78      4772
+weighted avg       0.83      0.77      0.78      4772
+[12:17:49] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11551
+[1]	eval-mlogloss:2.04217
+[2]	eval-mlogloss:1.96759
+[3]	eval-mlogloss:1.90369
+[4]	eval-mlogloss:1.83214
+[5]	eval-mlogloss:1.77915
+[6]	eval-mlogloss:1.73434
+[7]	eval-mlogloss:1.68723
+[8]	eval-mlogloss:1.64837
+[9]	eval-mlogloss:1.61141
+[10]	eval-mlogloss:1.57846
+[11]	eval-mlogloss:1.53919
+[12]	eval-mlogloss:1.50041
+[13]	eval-mlogloss:1.46677
+[14]	eval-mlogloss:1.43536
+[15]	eval-mlogloss:1.40796
+[16]	eval-mlogloss:1.37751
+[17]	eval-mlogloss:1.34739
+[18]	eval-mlogloss:1.31772
+[19]	eval-mlogloss:1.28960
+[20]	eval-mlogloss:1.26792
+[21]	eval-mlogloss:1.24372
+[22]	eval-mlogloss:1.22102
+[23]	eval-mlogloss:1.19738
+[24]	eval-mlogloss:1.17781
+[25]	eval-mlogloss:1.15610
+[26]	eval-mlogloss:1.13900
+[27]	eval-mlogloss:1.11931
+[28]	eval-mlogloss:1.10475
+[29]	eval-mlogloss:1.08789
+[30]	eval-mlogloss:1.06981
+[31]	eval-mlogloss:1.05322
+[32]	eval-mlogloss:1.03994
+[33]	eval-mlogloss:1.02531
+[34]	eval-mlogloss:1.01130
+[35]	eval-mlogloss:0.99646
+[36]	eval-mlogloss:0.98442
+[37]	eval-mlogloss:0.97066
+[38]	eval-mlogloss:0.95832
+[39]	eval-mlogloss:0.94716
+[40]	eval-mlogloss:0.93676
+[41]	eval-mlogloss:0.92545
+[42]	eval-mlogloss:0.91466
+[43]	eval-mlogloss:0.90360
+[44]	eval-mlogloss:0.89177
+[45]	eval-mlogloss:0.88188
+[46]	eval-mlogloss:0.87239
+[47]	eval-mlogloss:0.86525
+[48]	eval-mlogloss:0.85610
+[49]	eval-mlogloss:0.84711
+Accuracy score is 0.7675539719136449
+model saved to XGBoost_data/xgb_model_0.78.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.70      0.77      1224
+           1       0.96      0.69      0.80      1248
+           2       0.99      0.75      0.85      1153
+           3       0.54      0.94      0.69      1146
+    accuracy                           0.77      4771
+   macro avg       0.84      0.77      0.78      4771
+weighted avg       0.84      0.77      0.78      4771
+[12:17:55] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11292
+[1]	eval-mlogloss:2.03723
+[2]	eval-mlogloss:1.96160
+[3]	eval-mlogloss:1.89624
+[4]	eval-mlogloss:1.82366
+[5]	eval-mlogloss:1.76898
+[6]	eval-mlogloss:1.72301
+[7]	eval-mlogloss:1.67440
+[8]	eval-mlogloss:1.63502
+[9]	eval-mlogloss:1.59728
+[10]	eval-mlogloss:1.56333
+[11]	eval-mlogloss:1.52328
+[12]	eval-mlogloss:1.48343
+[13]	eval-mlogloss:1.44889
+[14]	eval-mlogloss:1.41694
+[15]	eval-mlogloss:1.38862
+[16]	eval-mlogloss:1.35764
+[17]	eval-mlogloss:1.32719
+[18]	eval-mlogloss:1.29649
+[19]	eval-mlogloss:1.26778
+[20]	eval-mlogloss:1.24531
+[21]	eval-mlogloss:1.22070
+[22]	eval-mlogloss:1.19777
+[23]	eval-mlogloss:1.17367
+[24]	eval-mlogloss:1.15376
+[25]	eval-mlogloss:1.13168
+[26]	eval-mlogloss:1.11392
+[27]	eval-mlogloss:1.09324
+[28]	eval-mlogloss:1.07837
+[29]	eval-mlogloss:1.06113
+[30]	eval-mlogloss:1.04220
+[31]	eval-mlogloss:1.02526
+[32]	eval-mlogloss:1.01141
+[33]	eval-mlogloss:0.99676
+[34]	eval-mlogloss:0.98240
+[35]	eval-mlogloss:0.96748
+[36]	eval-mlogloss:0.95515
+[37]	eval-mlogloss:0.94092
+[38]	eval-mlogloss:0.92810
+[39]	eval-mlogloss:0.91650
+[40]	eval-mlogloss:0.90583
+[41]	eval-mlogloss:0.89428
+[42]	eval-mlogloss:0.88326
+[43]	eval-mlogloss:0.87171
+[44]	eval-mlogloss:0.85964
+[45]	eval-mlogloss:0.84938
+[46]	eval-mlogloss:0.83960
+[47]	eval-mlogloss:0.83221
+[48]	eval-mlogloss:0.82275
+[49]	eval-mlogloss:0.81363
+Accuracy score is 0.78516034374345
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.85      0.70      0.77      1257
+           1       0.94      0.73      0.82      1151
+           2       0.99      0.76      0.86      1163
+           3       0.59      0.94      0.72      1200
+    accuracy                           0.79      4771
+   macro avg       0.84      0.79      0.79      4771
+weighted avg       0.84      0.79      0.79      4771
+[12:18:01] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11391
+[1]	eval-mlogloss:2.03754
+[2]	eval-mlogloss:1.96050
+[3]	eval-mlogloss:1.89507
+[4]	eval-mlogloss:1.82182
+[5]	eval-mlogloss:1.76745
+[6]	eval-mlogloss:1.72175
+[7]	eval-mlogloss:1.67357
+[8]	eval-mlogloss:1.63399
+[9]	eval-mlogloss:1.59587
+[10]	eval-mlogloss:1.56211
+[11]	eval-mlogloss:1.52172
+[12]	eval-mlogloss:1.48216
+[13]	eval-mlogloss:1.44756
+[14]	eval-mlogloss:1.41549
+[15]	eval-mlogloss:1.38761
+[16]	eval-mlogloss:1.35670
+[17]	eval-mlogloss:1.32596
+[18]	eval-mlogloss:1.29499
+[19]	eval-mlogloss:1.26570
+[20]	eval-mlogloss:1.24332
+[21]	eval-mlogloss:1.21903
+[22]	eval-mlogloss:1.19595
+[23]	eval-mlogloss:1.17196
+[24]	eval-mlogloss:1.15197
+[25]	eval-mlogloss:1.12993
+[26]	eval-mlogloss:1.11256
+[27]	eval-mlogloss:1.09239
+[28]	eval-mlogloss:1.07755
+[29]	eval-mlogloss:1.06025
+[30]	eval-mlogloss:1.04165
+[31]	eval-mlogloss:1.02484
+[32]	eval-mlogloss:1.01116
+[33]	eval-mlogloss:0.99644
+[34]	eval-mlogloss:0.98190
+[35]	eval-mlogloss:0.96690
+[36]	eval-mlogloss:0.95472
+[37]	eval-mlogloss:0.94076
+[38]	eval-mlogloss:0.92784
+[39]	eval-mlogloss:0.91648
+[40]	eval-mlogloss:0.90577
+[41]	eval-mlogloss:0.89412
+[42]	eval-mlogloss:0.88295
+[43]	eval-mlogloss:0.87195
+[44]	eval-mlogloss:0.85989
+[45]	eval-mlogloss:0.85001
+[46]	eval-mlogloss:0.84020
+[47]	eval-mlogloss:0.83333
+[48]	eval-mlogloss:0.82382
+[49]	eval-mlogloss:0.81487
+Accuracy score is 0.7927059316705093
+model saved to XGBoost_data/xgb_model_0.8.pkl
+              precision    recall  f1-score   support
+           0       0.84      0.72      0.78      1188
+           1       0.94      0.73      0.82      1209
+           2       0.99      0.78      0.87      1187
+           3       0.59      0.94      0.73      1187
+    accuracy                           0.79      4771
+   macro avg       0.84      0.79      0.80      4771
+weighted avg       0.84      0.79      0.80      4771
+[12:18:06] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.11450
+[1]	eval-mlogloss:2.04045
+[2]	eval-mlogloss:1.96478
+[3]	eval-mlogloss:1.89980
+[4]	eval-mlogloss:1.82748
+[5]	eval-mlogloss:1.77336
+[6]	eval-mlogloss:1.72798
+[7]	eval-mlogloss:1.67989
+[8]	eval-mlogloss:1.64038
+[9]	eval-mlogloss:1.60256
+[10]	eval-mlogloss:1.56895
+[11]	eval-mlogloss:1.52946
+[12]	eval-mlogloss:1.49052
+[13]	eval-mlogloss:1.45630
+[14]	eval-mlogloss:1.42451
+[15]	eval-mlogloss:1.39682
+[16]	eval-mlogloss:1.36641
+[17]	eval-mlogloss:1.33616
+[18]	eval-mlogloss:1.30600
+[19]	eval-mlogloss:1.27726
+[20]	eval-mlogloss:1.25535
+[21]	eval-mlogloss:1.23130
+[22]	eval-mlogloss:1.20832
+[23]	eval-mlogloss:1.18448
+[24]	eval-mlogloss:1.16442
+[25]	eval-mlogloss:1.14276
+[26]	eval-mlogloss:1.12509
+[27]	eval-mlogloss:1.10518
+[28]	eval-mlogloss:1.09029
+[29]	eval-mlogloss:1.07335
+[30]	eval-mlogloss:1.05489
+[31]	eval-mlogloss:1.03824
+[32]	eval-mlogloss:1.02492
+[33]	eval-mlogloss:1.01039
+[34]	eval-mlogloss:0.99631
+[35]	eval-mlogloss:0.98171
+[36]	eval-mlogloss:0.96997
+[37]	eval-mlogloss:0.95613
+[38]	eval-mlogloss:0.94326
+[39]	eval-mlogloss:0.93193
+[40]	eval-mlogloss:0.92139
+[41]	eval-mlogloss:0.90997
+[42]	eval-mlogloss:0.89884
+[43]	eval-mlogloss:0.88784
+[44]	eval-mlogloss:0.87600
+[45]	eval-mlogloss:0.86606
+[46]	eval-mlogloss:0.85622
+[47]	eval-mlogloss:0.84923
+[48]	eval-mlogloss:0.84013
+[49]	eval-mlogloss:0.83148
+Accuracy score is 0.7803395514567176
+model saved to XGBoost_data/xgb_model_0.79.pkl
+              precision    recall  f1-score   support
+           0       0.86      0.70      0.77      1185
+           1       0.93      0.71      0.80      1207
+           2       0.99      0.76      0.86      1150
+           3       0.58      0.95      0.72      1229
+    accuracy                           0.78      4771
+   macro avg       0.84      0.78      0.79      4771
+weighted avg       0.84      0.78      0.79      4771
+avg macro_F1_metric: 0.788 14
+save to data/test_submit_XGBoost_2022-02-02 12:19:22.612481.csv
+distribution:
+1 4563
+2 4508
+3 9646
+4 0
+[[0.000e+00 9.690e+02]
+ [1.000e+00 9.120e+02]
+ [2.000e+00 8.770e+02]
+ [3.000e+00 2.013e+03]]
+[[1.000e+00 9.690e+02]
+ [2.000e+00 9.120e+02]
+ [3.000e+00 8.770e+02]
+ [4.000e+00 2.013e+03]]
+save to data/test_submit_XGBoost_2022-02-02 12:36:32.669654.csv
+distribution:
+1 5139
+2 4563
+3 4508

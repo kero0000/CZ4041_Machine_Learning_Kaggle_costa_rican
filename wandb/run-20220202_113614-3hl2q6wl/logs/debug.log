@@ -1,0 +1,269 @@
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from /work/wandb/settings
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_init.py:_log_setup():386] Logging user logs to /work/wandb/run-20220202_113614-3hl2q6wl/logs/debug.log
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_init.py:_log_setup():387] Logging internal logs to /work/wandb/run-20220202_113614-3hl2q6wl/logs/debug-internal.log
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_init.py:init():420] calling init triggers
+2022-02-02 11:36:14,801 INFO    MainThread:199 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {}
+2022-02-02 11:36:14,802 INFO    MainThread:199 [wandb_init.py:init():442] re-initializing run, found existing run on stack: 4zmlv0e0
+2022-02-02 11:36:14,804 INFO    MainThread:199 [wandb_run.py:finish():1468] finishing run kero0000/my-test-project/4zmlv0e0
+2022-02-02 11:36:14,805 INFO    MainThread:199 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-02 11:36:14,805 INFO    MainThread:199 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-02 11:36:14,805 INFO    MainThread:199 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-02 11:36:14,805 INFO    MainThread:199 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-02 11:36:14,808 INFO    MainThread:199 [wandb_run.py:_restore():1769] restore
+2022-02-02 11:36:15,432 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 11:36:15,645 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 11:36:16,441 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 3259
+}
+
+2022-02-02 11:36:16,548 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:16,649 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:16,751 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:16,853 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:16,955 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:17,056 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:17,289 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+
+2022-02-02 11:36:17,526 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7838
+  total_bytes: 7838
+}
+local_info {
+}
+
+2022-02-02 11:36:19,137 INFO    MainThread:199 [wandb_run.py:_append_files():2194] logging synced files
+2022-02-02 11:36:19,149 INFO    MainThread:199 [wandb_init.py:init():471] starting backend
+2022-02-02 11:36:19,149 INFO    MainThread:199 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-02 11:36:19,153 INFO    MainThread:199 [backend.py:ensure_launched():219] starting backend process...
+2022-02-02 11:36:19,160 INFO    MainThread:199 [backend.py:ensure_launched():225] started backend process with pid: 287
+2022-02-02 11:36:19,162 INFO    MainThread:199 [wandb_init.py:init():480] backend started and connected
+2022-02-02 11:36:19,170 INFO    MainThread:199 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-02 11:36:19,170 INFO    MainThread:199 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-02 11:36:19,170 INFO    MainThread:199 [wandb_init.py:init():550] updated telemetry
+2022-02-02 11:36:19,176 INFO    MainThread:199 [wandb_init.py:init():581] communicating current version
+2022-02-02 11:36:20,994 INFO    MainThread:199 [wandb_init.py:init():586] got version response 
+2022-02-02 11:36:20,995 INFO    MainThread:199 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-02 11:36:21,119 INFO    MainThread:199 [wandb_init.py:init():624] starting run threads in backend
+2022-02-02 11:36:24,878 INFO    MainThread:199 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-02 11:36:24,879 INFO    MainThread:199 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-02 11:36:24,879 INFO    MainThread:199 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-02 11:36:24,888 INFO    MainThread:199 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-02 11:36:24,888 INFO    MainThread:199 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-02 11:36:24,889 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 2, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:36:45,593 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 3, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:37:08,089 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 4, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:37:36,408 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 5, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:38:05,172 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 6, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:38:39,178 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 7, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:39:17,525 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 8, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:39:57,576 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 9, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:40:40,039 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 10, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:41:26,266 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 11, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:42:12,222 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 12, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:42:58,940 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 13, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:43:45,956 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 14, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:44:33,963 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 15, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:45:27,810 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 16, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:46:20,183 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 17, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:47:12,760 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 18, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:48:02,513 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 19, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:48:52,011 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 20, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:49:42,837 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 21, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:50:54,537 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 22, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:52:46,897 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 23, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:53:39,042 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 24, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:54:29,903 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 25, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:55:20,457 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 26, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:56:18,742 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 27, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:57:10,084 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 28, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 11:58:01,289 INFO    MainThread:199 [wandb_run.py:_config_callback():966] config_cb None None {'boosting_type': 'dart', 'objective': 'multi:softmax', 'num_class': 9, 'max_depth': 29, 'min_child_weight': 20, 'gamma': 1, 'subsample': 0.8, 'colsample_bytree': 0.7, 'tree_method': 'hist', 'eval_metric': 'mlogloss', 'eta': 0.04, 'alpha': 1, 'verbose': 2}
+2022-02-02 12:12:30,356 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from /work/wandb/settings
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_init.py:_log_setup():386] Logging user logs to /work/wandb/run-20220202_121230-yxhw1b8n/logs/debug.log
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_init.py:_log_setup():387] Logging internal logs to /work/wandb/run-20220202_121230-yxhw1b8n/logs/debug-internal.log
+2022-02-02 12:12:30,357 INFO    MainThread:199 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4be7322b50>
+2022-02-02 12:12:30,358 INFO    MainThread:199 [wandb_init.py:init():420] calling init triggers
+2022-02-02 12:12:30,358 INFO    MainThread:199 [wandb_init.py:init():427] wandb.init called with sweep_config: {}
+config: {}
+2022-02-02 12:12:30,358 INFO    MainThread:199 [wandb_init.py:init():442] re-initializing run, found existing run on stack: 3hl2q6wl
+2022-02-02 12:12:30,361 INFO    MainThread:199 [wandb_run.py:finish():1468] finishing run kero0000/my-test-project/3hl2q6wl
+2022-02-02 12:12:30,361 INFO    MainThread:199 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-02 12:12:30,362 INFO    MainThread:199 [wandb_run.py:_restore():1769] restore
+2022-02-02 12:12:30,404 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 12:12:30,543 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 571
+}
+
+2022-02-02 12:12:31,272 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,383 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 571
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,485 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,587 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,689 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,791 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:31,892 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:32,095 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+
+2022-02-02 12:12:32,318 INFO    MainThread:199 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 317800
+  total_bytes: 317800
+}
+local_info {
+}
+
+2022-02-02 12:12:33,735 INFO    MainThread:199 [wandb_run.py:_append_history():2144] rendering history
+2022-02-02 12:12:33,735 INFO    MainThread:199 [wandb_run.py:_append_summary():2102] rendering summary
+2022-02-02 12:12:33,735 INFO    MainThread:199 [wandb_run.py:_append_files():2194] logging synced files

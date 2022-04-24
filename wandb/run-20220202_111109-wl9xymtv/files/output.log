@@ -1,0 +1,55 @@
+[11:11:17] WARNING: ../src/learner.cc:576:
+Parameters: { "boosting_type", "verbose" } might not be used.
+  This could be a false alarm, with some parameters getting used by language bindings but
+  then being mistakenly passed down to XGBoost core, or some parameter actually being used
+  but getting flagged wrongly here. Please open an issue if you find any such cases.
+[0]	eval-mlogloss:2.15363
+[1]	eval-mlogloss:2.11334
+[2]	eval-mlogloss:2.07487
+[3]	eval-mlogloss:2.03967
+[4]	eval-mlogloss:2.00643
+[5]	eval-mlogloss:1.97435
+[6]	eval-mlogloss:1.94446
+[7]	eval-mlogloss:1.91643
+[8]	eval-mlogloss:1.88918
+[9]	eval-mlogloss:1.86353
+[10]	eval-mlogloss:1.83765
+[11]	eval-mlogloss:1.81342
+[12]	eval-mlogloss:1.79078
+[13]	eval-mlogloss:1.76846
+[14]	eval-mlogloss:1.74757
+[15]	eval-mlogloss:1.72784
+[16]	eval-mlogloss:1.70830
+[17]	eval-mlogloss:1.68927
+[18]	eval-mlogloss:1.67091
+[19]	eval-mlogloss:1.65329
+[20]	eval-mlogloss:1.63665
+[21]	eval-mlogloss:1.62049
+[22]	eval-mlogloss:1.60502
+[23]	eval-mlogloss:1.58965
+[24]	eval-mlogloss:1.57518
+[25]	eval-mlogloss:1.56108
+[26]	eval-mlogloss:1.54726
+[27]	eval-mlogloss:1.53398
+[28]	eval-mlogloss:1.52094
+[29]	eval-mlogloss:1.50836
+[30]	eval-mlogloss:1.49660
+[31]	eval-mlogloss:1.48477
+[32]	eval-mlogloss:1.47352
+[33]	eval-mlogloss:1.46246
+[34]	eval-mlogloss:1.45192
+[35]	eval-mlogloss:1.44167
+[36]	eval-mlogloss:1.43153
+[37]	eval-mlogloss:1.42177
+[38]	eval-mlogloss:1.41248
+[39]	eval-mlogloss:1.40338
+[40]	eval-mlogloss:1.39422
+[41]	eval-mlogloss:1.38556
+[42]	eval-mlogloss:1.37734
+[43]	eval-mlogloss:1.36888
+[44]	eval-mlogloss:1.36088
+[45]	eval-mlogloss:1.35308
+[46]	eval-mlogloss:1.34548
+[47]	eval-mlogloss:1.33833
+[48]	eval-mlogloss:1.33113
+[49]	eval-mlogloss:1.32397

@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.95-42.163.amzn2.x86_64-x86_64-with-debian-10.11",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-02-02T17:08:16.040794",
+    "startedAt": "2022-02-02T17:07:59.757670",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-74fa48d9-a032-4709-abb2-c0b9be6dbb1e.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "p-f92fbbcf-fa92-4caa-ad57-5cd0b8c2766a",
+    "username": "root",
+    "executable": "/usr/local/bin/python"
+}

@@ -1,0 +1,500 @@
+2022-02-02 10:41:45,398 INFO    MainThread:724 [internal.py:wandb_internal():92] W&B internal server running at pid: 724, started at: 2022-02-02 10:41:45.397424
+2022-02-02 10:41:45,406 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: check_version
+2022-02-02 10:41:45,406 INFO    WriterThread:724 [datastore.py:open_for_write():77] open: /work/wandb/run-20220202_104139-light_bgm_depth_test/run-light_bgm_depth_test.wandb
+2022-02-02 10:41:45,410 DEBUG   SenderThread:724 [sender.py:send():235] send: header
+2022-02-02 10:41:45,410 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: check_version
+2022-02-02 10:41:45,460 DEBUG   SenderThread:724 [sender.py:send():235] send: run
+2022-02-02 10:41:45,563 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: run_start
+2022-02-02 10:41:45,744 INFO    SenderThread:724 [dir_watcher.py:__init__():169] watching files in: /work/wandb/run-20220202_104139-light_bgm_depth_test/files
+2022-02-02 10:41:45,744 INFO    SenderThread:724 [sender.py:_start_run_threads():812] run started: light_bgm_depth_test with start time 1643798503
+2022-02-02 10:41:45,744 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:41:45,747 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:41:46,752 INFO    Thread-8  :724 [dir_watcher.py:_on_file_created():217] file/dir created: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:41:48,055 DEBUG   HandlerThread:724 [meta.py:__init__():36] meta init
+2022-02-02 10:41:48,056 DEBUG   HandlerThread:724 [meta.py:__init__():50] meta init done
+2022-02-02 10:41:48,056 DEBUG   HandlerThread:724 [meta.py:probe():210] probe
+2022-02-02 10:41:48,060 DEBUG   HandlerThread:724 [git.py:repo():33] git repository is invalid
+2022-02-02 10:41:48,060 DEBUG   HandlerThread:724 [meta.py:_save_pip():54] save pip
+2022-02-02 10:41:48,063 DEBUG   HandlerThread:724 [meta.py:_save_pip():68] save pip done
+2022-02-02 10:41:48,063 DEBUG   HandlerThread:724 [meta.py:probe():248] probe done
+2022-02-02 10:41:48,067 DEBUG   SenderThread:724 [sender.py:send():235] send: files
+2022-02-02 10:41:48,067 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-02 10:41:48,081 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:41:48,082 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:41:48,166 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:41:48,562 INFO    Thread-11 :724 [upload_job.py:push():137] Uploaded file /tmp/tmpk5kccshswandb/2hbnk276-wandb-metadata.json
+2022-02-02 10:41:48,753 INFO    Thread-8  :724 [dir_watcher.py:_on_file_created():217] file/dir created: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/requirements.txt
+2022-02-02 10:41:48,754 INFO    Thread-8  :724 [dir_watcher.py:_on_file_created():217] file/dir created: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:41:48,754 INFO    Thread-8  :724 [dir_watcher.py:_on_file_created():217] file/dir created: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-metadata.json
+2022-02-02 10:41:50,757 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:41:52,762 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:41:54,765 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:41:56,768 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:41:58,049 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:41:58,050 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:41:58,053 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:41:58,054 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:41:58,773 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:41:58,773 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:00,778 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:02,781 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:03,174 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:42:03,174 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:42:04,791 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:07,795 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:09,825 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:11,828 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:12,790 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:42:12,790 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:42:12,793 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:42:12,794 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:42:12,830 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:42:13,832 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:15,839 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:18,270 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:42:18,703 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:42:18,704 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:42:18,722 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:18,722 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:42:19,732 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:21,737 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:23,740 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:25,747 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:27,750 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:29,753 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:31,756 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:33,234 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:42:33,235 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:42:33,237 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:42:33,238 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:42:33,759 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:42:33,799 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:42:33,800 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:42:34,762 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:36,765 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:38,768 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:40,773 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:42,777 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:44,779 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:46,376 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:42:46,783 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:48,785 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:48,883 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:42:48,883 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:42:49,787 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:42:50,789 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:52,796 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:54,799 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:56,056 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:42:56,072 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:42:56,077 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:42:56,077 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:42:56,826 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:42:56,826 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:42:58,830 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:00,833 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:02,836 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:03,969 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:43:03,969 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:43:04,839 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:06,842 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:08,845 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:10,849 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:12,853 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:14,858 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:16,574 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:43:17,868 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:19,072 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:43:19,072 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:43:19,872 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:19,872 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:43:21,875 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:22,383 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:43:22,383 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:43:22,386 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:43:22,386 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:43:22,880 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:43:23,882 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:25,885 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:27,888 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:31,526 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:32,527 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:34,188 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:43:34,188 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:43:34,534 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:36,543 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:38,546 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:40,549 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:42,554 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:44,563 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:46,563 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:46,733 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:43:48,569 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:49,305 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:43:49,306 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:43:49,570 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:43:50,572 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:52,575 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:53,493 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:43:53,494 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:43:53,497 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:43:53,498 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:43:53,576 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:43:54,579 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:56,583 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:43:58,586 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:00,589 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:02,592 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:04,425 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:44:04,425 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:44:04,595 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:06,598 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:08,601 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:10,628 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:12,631 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:14,634 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:16,638 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:16,882 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:44:18,641 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:19,533 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:44:19,533 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:44:20,644 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:20,646 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:44:22,649 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:23,792 DEBUG   SenderThread:724 [sender.py:send():235] send: history
+2022-02-02 10:44:23,793 DEBUG   SenderThread:724 [sender.py:send():235] send: summary
+2022-02-02 10:44:23,795 INFO    SenderThread:724 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-02 10:44:23,796 DEBUG   SenderThread:724 [sender.py:send():235] send: config
+2022-02-02 10:44:24,653 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 10:44:24,654 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:26,658 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:28,662 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:30,666 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:32,672 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:34,633 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:44:34,633 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:44:34,675 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:38,926 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:40,928 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:44,144 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:45,146 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:47,034 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:44:47,149 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:49,152 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:49,728 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:44:49,728 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:44:50,154 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 10:44:51,156 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:53,159 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:55,161 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:56,693 WARNING MainThread:724 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-02-02 10:44:57,163 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:44:59,167 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 10:45:04,831 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:45:04,831 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:45:17,112 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:45:19,904 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:45:19,904 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:45:34,967 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:45:34,968 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:45:47,168 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:45:50,031 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:45:50,031 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:46:05,094 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:46:05,095 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:46:17,229 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:46:20,239 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:46:20,239 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:46:35,301 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:46:35,302 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:46:47,354 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:46:50,367 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:46:50,367 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:47:05,438 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:47:05,438 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:47:17,418 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:47:20,648 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:47:20,649 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:47:35,709 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:47:35,709 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:47:47,479 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:47:50,769 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:47:50,770 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:48:05,832 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:48:05,832 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:48:17,540 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:48:20,893 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:48:20,893 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:48:35,968 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:48:35,968 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:48:47,635 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:48:51,044 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:48:51,044 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:49:06,114 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:49:06,115 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:49:17,735 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:49:21,200 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:49:21,200 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:49:36,508 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:49:36,508 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:49:47,795 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:49:51,581 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:49:51,582 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:50:06,656 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:50:06,657 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:50:17,851 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:50:21,726 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:50:21,727 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:50:36,800 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:50:36,800 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:50:47,947 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:50:51,874 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:50:51,874 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:51:06,938 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:51:06,938 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:51:18,097 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:51:22,012 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:51:22,013 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:51:37,079 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:51:37,079 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:51:48,198 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:51:52,699 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:51:52,700 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:52:07,761 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:52:07,761 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:52:18,262 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:52:22,828 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:52:22,828 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:52:37,889 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:52:37,889 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:52:48,325 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:52:52,971 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:52:52,971 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:53:08,044 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:53:08,045 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:53:18,389 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:53:23,120 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:53:23,120 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:53:38,186 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:53:38,186 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:53:48,446 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:53:53,253 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:53:53,253 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:54:08,314 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:54:08,315 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:54:18,517 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:54:23,448 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:54:23,449 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:54:38,517 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:54:38,518 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:54:48,580 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:54:53,580 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:54:53,581 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:55:08,645 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:55:08,645 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:55:18,642 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:55:23,710 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:55:23,711 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:55:38,772 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:55:38,772 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:55:48,706 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:55:53,836 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:55:53,836 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:56:08,900 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:56:08,900 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:56:18,769 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:56:24,232 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:56:24,232 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:56:39,306 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:56:39,306 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:56:48,840 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:56:54,380 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:56:54,380 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:57:09,454 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:57:09,454 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:57:18,898 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:57:24,518 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:57:24,518 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:57:39,590 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:57:39,590 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:57:48,966 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:57:54,670 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:57:54,670 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:58:09,734 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:58:09,735 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:58:19,031 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:58:24,813 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:58:24,813 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:58:39,878 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:58:39,879 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:58:49,091 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:58:54,940 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:58:54,940 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:59:10,000 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:59:10,000 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:59:19,150 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:59:25,062 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:59:25,063 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:59:40,122 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:59:40,123 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 10:59:49,206 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 10:59:55,189 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 10:59:55,189 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:00:10,251 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:00:10,252 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:00:19,282 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:00:25,314 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:00:25,315 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:00:40,385 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:00:40,385 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:00:49,340 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:00:55,448 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:00:55,448 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:01:10,515 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:01:10,515 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:01:19,400 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:01:25,581 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:01:25,581 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:01:40,642 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:01:40,643 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:01:49,458 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:01:55,721 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:01:55,721 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:02:10,792 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:02:10,792 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:02:19,545 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:02:25,855 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:02:25,856 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:02:40,935 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:02:40,935 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:02:49,631 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:02:55,995 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:02:55,996 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:03:11,079 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:03:11,080 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:03:19,714 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:03:26,148 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:03:26,149 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:03:41,300 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:03:41,301 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:03:49,856 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:03:56,372 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:03:56,373 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:04:11,436 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:04:11,437 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:04:19,917 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:04:26,501 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:04:26,501 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:04:41,599 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:04:41,599 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:04:49,986 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:04:56,667 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:04:56,667 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:05:11,738 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:05:11,738 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:05:20,052 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:05:26,816 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:05:26,816 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:05:41,883 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:05:41,883 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:05:50,116 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:05:56,955 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:05:56,955 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:06:12,022 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:06:12,023 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:06:20,191 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:06:27,538 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:06:27,539 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:06:42,604 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:06:42,604 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:06:50,259 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:06:57,669 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:06:57,670 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:07:12,758 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:07:12,758 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:07:20,319 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:07:27,840 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:07:27,840 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:07:42,916 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:07:42,916 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:07:50,381 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:07:57,980 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:07:57,980 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:08:13,040 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:08:13,040 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:08:20,440 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:08:28,107 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:08:28,107 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:08:43,169 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:08:43,170 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:08:50,504 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:08:58,232 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:08:58,232 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:09:13,308 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:09:13,308 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:09:20,571 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:09:28,369 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:09:28,370 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:09:43,435 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:09:43,435 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:09:50,629 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:09:58,496 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:09:58,497 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:10:13,560 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:10:13,560 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:10:20,688 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:10:28,633 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:10:28,633 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:10:42,316 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 11:10:43,696 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:10:43,696 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:10:50,773 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:10:59,126 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:10:59,126 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:11:14,228 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:11:14,229 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:11:20,930 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:11:29,336 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:11:29,336 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:11:44,398 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:11:44,398 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:11:50,994 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:11:59,498 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:11:59,499 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:12:14,563 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:12:14,564 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:12:21,052 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:12:29,985 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:12:29,985 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:12:42,380 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 11:12:45,046 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:12:45,047 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:12:51,121 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:13:00,120 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:13:00,121 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:13:15,182 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:13:15,183 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:13:21,187 DEBUG   SenderThread:724 [sender.py:send():235] send: stats
+2022-02-02 11:13:30,255 DEBUG   HandlerThread:724 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-02 11:13:30,255 DEBUG   SenderThread:724 [sender.py:send_request():249] send_request: stop_status
+2022-02-02 11:13:38,408 WARNING MainThread:724 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-02-02 11:13:38,409 ERROR   MainThread:724 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-02-02 11:13:38,968 INFO    HandlerThread:724 [handler.py:finish():739] shutting down handler
+2022-02-02 11:13:38,968 DEBUG   SenderThread:724 [sender.py:send():235] send: telemetry
+2022-02-02 11:13:38,969 INFO    SenderThread:724 [sender.py:finish():1075] shutting down sender
+2022-02-02 11:13:38,969 INFO    SenderThread:724 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-02 11:13:38,969 INFO    WriterThread:724 [datastore.py:close():281] close: /work/wandb/run-20220202_104139-light_bgm_depth_test/run-light_bgm_depth_test.wandb
+2022-02-02 11:13:39,291 INFO    Thread-8  :724 [dir_watcher.py:_on_file_modified():230] file/dir modified: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 11:13:39,292 INFO    SenderThread:724 [dir_watcher.py:finish():313] scan: /work/wandb/run-20220202_104139-light_bgm_depth_test/files
+2022-02-02 11:13:39,293 INFO    SenderThread:724 [dir_watcher.py:finish():327] scan save: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-metadata.json wandb-metadata.json
+2022-02-02 11:13:39,293 INFO    SenderThread:724 [dir_watcher.py:finish():327] scan save: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/requirements.txt requirements.txt
+2022-02-02 11:13:39,293 INFO    SenderThread:724 [dir_watcher.py:finish():327] scan save: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json wandb-summary.json
+2022-02-02 11:13:39,293 INFO    SenderThread:724 [dir_watcher.py:finish():327] scan save: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log output.log
+2022-02-02 11:13:39,294 INFO    SenderThread:724 [dir_watcher.py:finish():327] scan save: /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml config.yaml
+2022-02-02 11:13:39,306 INFO    SenderThread:724 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-02 11:13:39,306 INFO    SenderThread:724 [file_pusher.py:join():182] waiting for file pusher
+2022-02-02 11:13:39,768 INFO    Thread-15 :724 [upload_job.py:push():137] Uploaded file /work/wandb/run-20220202_104139-light_bgm_depth_test/files/config.yaml
+2022-02-02 11:13:39,769 INFO    Thread-13 :724 [upload_job.py:push():137] Uploaded file /work/wandb/run-20220202_104139-light_bgm_depth_test/files/wandb-summary.json
+2022-02-02 11:13:39,799 INFO    Thread-12 :724 [upload_job.py:push():137] Uploaded file /work/wandb/run-20220202_104139-light_bgm_depth_test/files/requirements.txt
+2022-02-02 11:13:39,818 INFO    Thread-14 :724 [upload_job.py:push():137] Uploaded file /work/wandb/run-20220202_104139-light_bgm_depth_test/files/output.log
+2022-02-02 11:13:40,366 INFO    MainThread:724 [internal.py:handle_exit():79] Internal process exited
