@@ -5,4 +5,7 @@ Group 30: Cheng Mun Chew, Llyod Wang, Wang Yu Xi
 
 Project Summary: We conducted EDA, data preprocessing and applied machine learning techniques on the Costa Rican dataset from the Kaggle competition found here: https://www.kaggle.com/c/costa-rican-household-poverty-prediction/.
 
+Report Link : https://docs.google.com/document/d/1F9hrJcMa3ovYSg7AGLtSJ3AyPRfsvvwFFttfOiZZA3Y/edit?usp=sharing
+
 A short 15mins presentation of our project can be found here: https://youtu.be/qbQh8Vls8K8
+
